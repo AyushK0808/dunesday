@@ -57,7 +57,7 @@ def subject_for(shows: list[Show]) -> str:
     return f"🎬 {n} new show{'s' if n != 1 else ''}: " + " · ".join(parts)
 
 
-def render_alert(shows: list[Show], site_url: str, themes: dict[str, str]) -> str:
+def render_alert(shows: list[Show], site_url: str, themes: dict[str, str], where: str = "District · Hyderabad") -> str:
     """themes: movie_key -> theme name"""
     by_movie: dict[str, dict[str, dict[str, list[Show]]]] = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
     names: dict[str, str] = {}
@@ -104,10 +104,10 @@ def render_alert(shows: list[Show], site_url: str, themes: dict[str, str]) -> st
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#16131D"><tr><td align="center" style="padding:24px 12px">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:640px;background:#1E1A27;border:1px solid #2E2938;border-radius:16px">
 <tr><td style="padding:26px 28px 18px"><div style="font:700 12px Arial,sans-serif;letter-spacing:.45em;color:#d9c7a7">DUNESDAY</div>
-<div style="font:13px Arial,sans-serif;color:#a99e8b;margin-top:6px">New showtimes just appeared on District · Hyderabad</div></td></tr>
+<div style="font:13px Arial,sans-serif;color:#a99e8b;margin-top:6px">New showtimes just appeared on {e(where)}</div></td></tr>
 {"".join(blocks)}
 <tr><td style="padding:22px 28px 26px;border-top:1px solid #2E2938;font:12px Arial,sans-serif;color:#7d7466">
-Seats shown as available/total at the time of the check. {link} · change what you get on the dashboard under My alerts.</td></tr>
+Seats shown as available/total at the time of the check, where the site gives counts. {link} · change what you get on the dashboard under My alerts.</td></tr>
 </table></td></tr></table></body></html>"""
 
 

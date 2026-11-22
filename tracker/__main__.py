@@ -1,6 +1,7 @@
 """Dunesday tracker.
 
   python -m tracker                 # normal run (needs MONGODB_URI, GMAIL_USER, GMAIL_APP_PASSWORD)
+  python -m tracker --source bookmyshow   # same, against BookMyShow instead of District
   python -m tracker --dry-run       # fetch + print, no database, no email
   python -m tracker --no-email      # update database, skip emails
   python -m tracker init --admin you@example.com   # create indexes, settings, admin user
@@ -18,7 +19,15 @@ from collections import Counter
 from . import db as dbm
 from .models import Show
 from .notify import Mailer, filter_for_user, render_alert, render_notice, render_text, subject_for
+from .sources import bookmyshow as bms
 from .sources.district import DistrictClient, Movie
+
+# Per-source settings: which movie field holds the link, and where the failure
+# streak lives in the settings document (District keeps the original names).
+SOURCES = {
+    "district": {"label": "District", "url_field": "url", "streak": "failure_streak", "last_ok": "last_ok_at"},
+    "bookmyshow": {"label": "BookMyShow", "url_field": "bms_url", "streak": "bms_failure_streak", "last_ok": "bms_last_ok_at"},
+}
 
 log = logging.getLogger("tracker")
 
@@ -34,16 +43,24 @@ def _load_env_file() -> None:
             os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
 
-def fetch_all(settings: dict) -> tuple[list[Show], set[str], dict[str, str]]:
-    client = DistrictClient()
+def fetch_all(settings: dict, source: str = "district") -> tuple[list[Show], set[str], dict[str, str]]:
+    client = bms.BookMyShowClient() if source == "bookmyshow" else DistrictClient()
+    url_field = SOURCES[source]["url_field"]
     shows: list[Show] = []
     complete: set[str] = set()
     errors: dict[str, str] = {}
     for m in settings["movies"]:
         if not m.get("enabled", True):
             continue
+        url = m.get(url_field)
+        if not url:
+            log.info("%s has no %s link; skipping", m["name"], SOURCES[source]["label"])
+            continue
         try:
-            movie = Movie.from_url(m["key"], m["name"], m["url"])
+            if source == "bookmyshow":
+                movie = bms.Movie.from_url(m["key"], m["name"], url)
+            else:
+                movie = Movie.from_url(m["key"], m["name"], url)
             shows.extend(client.fetch_movie(movie, settings["city"], settings["language"]))
             complete.add(m["key"])
         except Exception as e:  # keep going with other movies
@@ -67,8 +84,10 @@ def summarize(shows: list[Show]) -> str:
 
 
 def run(args: argparse.Namespace) -> int:
+    source = args.source
+    cfg = SOURCES[source]
     if args.dry_run:
-        shows, _, errors = fetch_all(dbm.DEFAULT_SETTINGS)
+        shows, _, errors = fetch_all(dbm.DEFAULT_SETTINGS, source)
         print(summarize(shows))
         for k, v in errors.items():
             print(f"ERROR {k}: {v}")
@@ -76,9 +95,11 @@ def run(args: argparse.Namespace) -> int:
 
     db = dbm.connect(os.environ["MONGODB_URI"])
     settings = dbm.get_settings(db)
+    if source == "bookmyshow":
+        settings = dbm.seed_movie_field(db, settings, "bms_url", bms.DEFAULT_URLS)
     site = os.environ.get("SITE_URL", "").rstrip("/")
     trigger = os.environ.get("RUN_TRIGGER", "manual")
-    run_doc = {"started_at": dbm.now(), "trigger": trigger, "status": "running"}
+    run_doc = {"started_at": dbm.now(), "trigger": trigger, "source": source, "status": "running"}
     run_id = db.runs.insert_one(run_doc).inserted_id
 
     if settings.get("paused") and trigger == "cron":
@@ -92,18 +113,22 @@ def run(args: argparse.Namespace) -> int:
 
     emails_sent = 0
     try:
-        shows, complete, errors = fetch_all(settings)
-        new = dbm.sync_shows(db, shows, complete)
-        log.info("%d shows found, %d new", len(shows), len(new))
+        shows, complete, errors = fetch_all(settings, source)
+        new = dbm.sync_shows(db, shows, complete, platform=source)
+        # A show already emailed from the other platform isn't news.
+        dupes = dbm.listed_elsewhere(db, new)
+        alert = [s for s in new if s.key not in dupes]
+        log.info("%d shows found, %d new, %d of them already listed elsewhere", len(shows), len(new), len(dupes))
 
-        if new and mailer:
+        if alert and mailer:
             themes = {m["key"]: m.get("theme", "") for m in settings["movies"]}
+            where = f"{cfg['label']} · {settings['city'].replace('-', ' ').title()}"
             for user in dbm.alert_recipients(db):
-                mine = filter_for_user(new, user.get("prefs", {}))
+                mine = filter_for_user(alert, user.get("prefs", {}))
                 if not mine:
                     continue
                 try:
-                    mailer.send_one(user["email"], subject_for(mine), render_alert(mine, site, themes), render_text(mine))
+                    mailer.send_one(user["email"], subject_for(mine), render_alert(mine, site, themes, where), render_text(mine))
                     emails_sent += 1
                 except Exception:
                     log.exception("Email to %s failed", user["email"])
@@ -111,7 +136,7 @@ def run(args: argparse.Namespace) -> int:
         status = "error" if errors else "ok"
         error_text = "\n".join(f"{k}: {v}" for k, v in errors.items()) or None
     except Exception as e:
-        shows, new, status = [], [], "error"
+        shows, new, dupes, status = [], [], set(), "error"
         error_text = f"{type(e).__name__}: {e}\n\n{traceback.format_exc()}"
         log.exception("Run failed")
 
@@ -124,6 +149,7 @@ def run(args: argparse.Namespace) -> int:
                 "finished_at": dbm.now(),
                 "shows_found": len(shows),
                 "new_shows": len(new),
+                "already_listed": len(dupes),
                 "per_movie": dict(per_movie),
                 "new_per_movie": dict(Counter(s.movie_key for s in new)),
                 "emails_sent": emails_sent,
@@ -133,20 +159,22 @@ def run(args: argparse.Namespace) -> int:
     )
 
     # One failure email per failure streak, and one when it recovers.
-    streak = settings.get("failure_streak", 0)
+    streak = settings.get(cfg["streak"], 0)
+    label = cfg["label"]
     if status == "error":
-        db.settings.update_one({"_id": "global"}, {"$inc": {"failure_streak": 1}})
+        db.settings.update_one({"_id": "global"}, {"$inc": {cfg["streak"]: 1}})
         if streak == 0 and mailer:
             admins = dbm.admins(db)
             if admins:
-                mailer.send(admins, "⚠️ Dunesday tracker is failing", render_notice("The tracker hit an error", error_text or "", site), error_text or "")
+                body = error_text or ""
+                mailer.send(admins, f"⚠️ Dunesday {label} check is failing", render_notice(f"The {label} check hit an error", body, site), body)
     else:
-        db.settings.update_one({"_id": "global"}, {"$set": {"failure_streak": 0, "last_ok_at": dbm.now()}})
+        db.settings.update_one({"_id": "global"}, {"$set": {cfg["streak"]: 0, cfg["last_ok"]: dbm.now()}})
         if streak > 0 and mailer:
             admins = dbm.admins(db)
             if admins:
-                msg = f"Back to normal after {streak} failed run(s)."
-                mailer.send(admins, "✅ Dunesday tracker recovered", render_notice("Tracker recovered", msg, site), msg)
+                msg = f"{label} checks are back to normal after {streak} failed run(s)."
+                mailer.send(admins, f"✅ Dunesday {label} check recovered", render_notice(f"{label} check recovered", msg, site), msg)
     return 1 if status == "error" else 0
 
 
@@ -166,6 +194,7 @@ def main() -> int:
     p = argparse.ArgumentParser(prog="tracker")
     p.add_argument("--dry-run", action="store_true", help="fetch and print only")
     p.add_argument("--no-email", action="store_true", help="update database but send no email")
+    p.add_argument("--source", choices=sorted(SOURCES), default="district", help="which site to check (default: district)")
     sub = p.add_subparsers(dest="cmd")
     pi = sub.add_parser("init", help="create indexes, default settings and admin user")
     pi.add_argument("--admin", help="admin email address")
