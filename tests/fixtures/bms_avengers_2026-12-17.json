@@ -1,0 +1,2422 @@
+{
+ "additionalData": {
+  "dateCode": "20261217",
+  "eventCode": "ET00439706",
+  "defaultSortId": "relevance",
+  "sortingEnabled": true,
+  "showPriceWithoutDecimal": true,
+  "isV5MultiEvent": true,
+  "uuid": "8ba25eed-d598-4522-bafb-9200f4f8a2fa"
+ },
+ "topStickyWidgets": [
+  {
+   "type": "horizontal-block-list",
+   "data": [
+    {
+     "type": "vertical-text-list",
+     "id": "20261217",
+     "styleId": "date-selected",
+     "data": [
+      {
+       "text": "THU",
+       "styleId": "weekday-title-selected",
+       "uuid": "d272b8d0-272a-4b89-8f4f-e4f2ef8266d3"
+      },
+      {
+       "text": "17",
+       "styleId": "date-title-selected",
+       "uuid": "9a710a75-9d20-451e-a104-01fd4196ba43"
+      },
+      {
+       "text": "DEC",
+       "styleId": "date-subtitle-selected",
+       "uuid": "5adbb89e-421b-4aee-aa4f-4125b55b7d48"
+      }
+     ],
+     "cta": {
+      "type": "dateSelector",
+      "analytics": {
+       "event_action": "date",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "2026-12-17",
+       "uuid": "e5aa603e-0fbc-48df-9a09-d946ee04f328"
+      },
+      "additionalData": {
+       "dateCode": "20261217",
+       "uuid": "2b0994bb-b0ff-4fd1-b595-b87e856ce797"
+      },
+      "uuid": "0d99785e-d8be-445a-88c8-0088d6bbbeeb"
+     },
+     "uuid": "27db965c-cb39-4d36-8a76-333fde170bbb"
+    },
+    {
+     "type": "vertical-text-list",
+     "id": "20261218",
+     "styleId": "date-default",
+     "data": [
+      {
+       "text": "FRI",
+       "styleId": "weekday-title",
+       "uuid": "11c9a6d3-0509-49ac-8b11-7f03aef4bcb3"
+      },
+      {
+       "text": "18",
+       "styleId": "date-title",
+       "uuid": "3e4ddeaa-623b-4d57-a70e-70d62105492a"
+      },
+      {
+       "text": "DEC",
+       "styleId": "date-subtitle",
+       "uuid": "18b4edd0-1077-4cdf-a7d7-f3315567fc8a"
+      }
+     ],
+     "cta": {
+      "type": "dateSelector",
+      "analytics": {
+       "event_action": "date",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "2026-12-18",
+       "uuid": "4de311f2-8026-40d8-9b19-24d1bcbca28c"
+      },
+      "additionalData": {
+       "dateCode": "20261218",
+       "uuid": "30f30123-a726-4420-b773-33a4c5d14b9a"
+      },
+      "uuid": "60b000cc-30b3-4958-93b3-a8944b1cd0ee"
+     },
+     "uuid": "73be87d3-1d5d-4b4c-9ebc-eeef1a89e5b3"
+    },
+    {
+     "type": "vertical-text-list",
+     "id": "20261219",
+     "styleId": "date-default",
+     "data": [
+      {
+       "text": "SAT",
+       "styleId": "weekday-title",
+       "uuid": "8c30e81e-f9c3-44ba-a955-a60595706d86"
+      },
+      {
+       "text": "19",
+       "styleId": "date-title",
+       "uuid": "24ea56e7-1b67-4a60-a411-85439685eb73"
+      },
+      {
+       "text": "DEC",
+       "styleId": "date-subtitle",
+       "uuid": "bfe0f349-38ba-4305-8823-18bb63ed97f1"
+      }
+     ],
+     "cta": {
+      "type": "dateSelector",
+      "analytics": {
+       "event_action": "date",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "2026-12-19",
+       "uuid": "a9c37d69-94ef-42bc-ab1f-6cae44808d7f"
+      },
+      "additionalData": {
+       "dateCode": "20261219",
+       "uuid": "b543f757-30b1-4f1b-9b3a-4cc18429fb69"
+      },
+      "uuid": "1d49cbf1-cefa-4be4-b7a4-d8d075c5abf4"
+     },
+     "uuid": "e9f7989d-3439-468c-a00e-edbc2c8650c5"
+    },
+    {
+     "type": "vertical-text-list",
+     "id": "20261220",
+     "styleId": "date-default",
+     "data": [
+      {
+       "text": "SUN",
+       "styleId": "weekday-title",
+       "uuid": "e950f6da-df35-4f45-bf11-fc41538f167b"
+      },
+      {
+       "text": "20",
+       "styleId": "date-title",
+       "uuid": "126b7497-a25f-434c-be91-fb0087b8502c"
+      },
+      {
+       "text": "DEC",
+       "styleId": "date-subtitle",
+       "uuid": "a35bcfed-a7a2-4bfc-8f17-d4008fb2f3c0"
+      }
+     ],
+     "cta": {
+      "type": "dateSelector",
+      "analytics": {
+       "event_action": "date",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "2026-12-20",
+       "uuid": "2913ee90-7d2e-4b8b-8eed-f8ec167005d1"
+      },
+      "additionalData": {
+       "dateCode": "20261220",
+       "uuid": "1a7dc0a1-6e64-4b07-b9c5-276b33c38d97"
+      },
+      "uuid": "bb2b95e0-855c-4550-9f48-e3a6cb728cd5"
+     },
+     "uuid": "c51c7deb-1c27-44f2-b411-9904aa9df399"
+    },
+    {
+     "type": "vertical-text-list",
+     "id": "20261221",
+     "styleId": "date-disabled",
+     "data": [
+      {
+       "text": "MON",
+       "styleId": "weekday-title",
+       "uuid": "52f397ee-6234-4722-b1fa-9b4cca34cb47"
+      },
+      {
+       "text": "21",
+       "styleId": "date-title-disabled",
+       "uuid": "5dd757ed-4bf7-4f60-b2e9-a3cc93f0a024"
+      },
+      {
+       "text": "DEC",
+       "styleId": "date-subtitle-disabled",
+       "uuid": "887b63e5-9717-4d3b-a1d9-56000fd038f6"
+      }
+     ],
+     "uuid": "5467820f-a9d6-4256-8450-92f21c959bcf"
+    },
+    {
+     "type": "vertical-text-list",
+     "id": "20261222",
+     "styleId": "date-disabled",
+     "data": [
+      {
+       "text": "TUE",
+       "styleId": "weekday-title",
+       "uuid": "451f364f-914c-4c24-aaef-96732c2a68cb"
+      },
+      {
+       "text": "22",
+       "styleId": "date-title-disabled",
+       "uuid": "47c359d0-b00f-4426-8828-41430dccebb8"
+      },
+      {
+       "text": "DEC",
+       "styleId": "date-subtitle-disabled",
+       "uuid": "30be3e2e-24b4-4bf6-afdf-5f1107ae5bec"
+      }
+     ],
+     "uuid": "39161c82-275e-4a1e-9063-b23c2e0b778a"
+    },
+    {
+     "type": "vertical-text-list",
+     "id": "20261223",
+     "styleId": "date-disabled",
+     "data": [
+      {
+       "text": "WED",
+       "styleId": "weekday-title",
+       "uuid": "c8d06919-c2a6-41ad-b30c-37a3218f58ad"
+      },
+      {
+       "text": "23",
+       "styleId": "date-title-disabled",
+       "uuid": "c457cb66-b796-4454-a371-c7208c55e85c"
+      },
+      {
+       "text": "DEC",
+       "styleId": "date-subtitle-disabled",
+       "uuid": "e03ff093-5afd-4e62-b59c-fb02f1a46998"
+      }
+     ],
+     "uuid": "fc4debf9-b5f3-443e-8a12-7fe9b5abc2bf"
+    }
+   ],
+   "uuid": "4bef7bce-0779-4133-a53d-acb979a50a16"
+  },
+  {
+   "type": "horizontal-text-list",
+   "data": [
+    {
+     "styleId": "format-style",
+     "leftText": {
+      "data": [
+       {
+        "components": [
+         {
+          "uuid": "91a2e3a7-acf2-41bf-983c-d21f99cda4d3",
+          "type": "text",
+          "styleId": "format-left-title",
+          "text": "English  •  2D"
+         }
+        ],
+        "uuid": "920235cb-d202-473e-a4d3-939cf2498929"
+       }
+      ],
+      "uuid": "632956fb-68ea-4c93-8b6f-5845f6645d6a"
+     },
+     "rightText": {
+      "data": [
+       {
+        "components": [
+         {
+          "uuid": "cbbaba70-87c7-48ad-884b-38b144068bf2",
+          "type": "text",
+          "styleId": "format-change-title",
+          "text": "Change"
+         },
+         {
+          "uuid": "c3ea663a-f0d1-4834-8062-1068e47c9e99",
+          "type": "image",
+          "styleId": "format-change-icon",
+          "imageUrl": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/common/right-chevron.png"
+         }
+        ],
+        "uuid": "3eceb973-f107-41b6-b139-41bacaf82ccb"
+       }
+      ],
+      "uuid": "b888a7d9-2847-4b46-af39-0b9033d5d87e"
+     },
+     "uuid": "d926b9e6-e72e-46e8-b9a7-cb5d7973f634"
+    }
+   ],
+   "cta": {
+    "type": "bottomsheet",
+    "id": "format-selector",
+    "uuid": "4676b44a-e1cc-4972-b300-b3d777b8f76d"
+   },
+   "uuid": "07dad8b2-67f4-48b5-b26f-aada38707bb2"
+  },
+  {
+   "type": "horizontal-pill-list",
+   "id": "filter-list",
+   "stickyWidget": {
+    "type": "vertical-text-list",
+    "styleId": "sortby-pill",
+    "iconUrl": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/common/down-chevron.png",
+    "data": [
+     {
+      "text": "Sort by",
+      "styleId": "sticky-pill-sortby",
+      "uuid": "8235616f-4503-4384-9f74-15c9fe17dbd9"
+     }
+    ],
+    "cta": {
+     "type": "bottomsheet",
+     "id": "sortBy",
+     "analytics": {
+      "category": "sort",
+      "event_action": "quick_filter",
+      "event_name": "showtime_actions",
+      "event_type": "click",
+      "uuid": "84fe9361-bfec-4558-b2bf-65b0e52a32f0"
+     },
+     "uuid": "cf69c14a-2831-4cbb-8796-2742e3df7e87"
+    },
+    "startIcon": {
+     "url": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/common/sortbyStarticon.png",
+     "uuid": "8d08024e-68b4-4ca9-ae35-e20fb6c077b3"
+    },
+    "uuid": "073f65f6-6f86-478c-855b-a7b7ce0e9c30"
+   },
+   "data": [
+    {
+     "type": "chip",
+     "title": "₹0 - ₹300",
+     "cta": {
+      "type": "filter",
+      "analytics": {
+       "category": "price",
+       "event_action": "quick_filter",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "0-300",
+       "uuid": "4ecd63b9-4b4d-4794-a1f9-73c49470ba21"
+      },
+      "additionalData": {
+       "filterID": "pf3",
+       "filterLevel": "both",
+       "categoryId": "price",
+       "uuid": "550c0f2a-680d-45f8-86da-29f3ef2b3c34"
+      },
+      "uuid": "83e823d9-b010-4048-9cf9-80eb21d082ac"
+     },
+     "uuid": "9ac68f23-65ae-45c4-b8a0-b85fe3b458d3"
+    },
+    {
+     "type": "chip",
+     "title": "₹301 - ₹400",
+     "cta": {
+      "type": "filter",
+      "analytics": {
+       "category": "price",
+       "event_action": "quick_filter",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "301-400",
+       "uuid": "f34ed72c-9ea1-4826-8423-c65a08b972b1"
+      },
+      "additionalData": {
+       "filterID": "pf4",
+       "filterLevel": "both",
+       "categoryId": "price",
+       "uuid": "1c0953b3-891e-4cec-87a9-52012405b577"
+      },
+      "uuid": "7cc3a9cd-ee97-49c0-be9a-f693c6c1d5fa"
+     },
+     "uuid": "0a5d3da5-5a3f-4aaa-a8c4-6e4799a86540"
+    },
+    {
+     "type": "chip",
+     "title": "Clear filters",
+     "styleId": "pill-highlighted",
+     "cta": {
+      "type": "clearFilter",
+      "analytics": {
+       "category": "reset",
+       "event_action": "quick_filter",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "uuid": "f0f82973-7128-4329-ba65-4ef18d8a59cd"
+      },
+      "uuid": "00153e4f-82b4-4dfe-91a7-b20369ec1369"
+     },
+     "uuid": "c7a143a5-39e2-4620-b06c-241c99748b1b"
+    }
+   ],
+   "uuid": "65239ad6-5766-4ac7-9e7d-900b73b396e9"
+  }
+ ],
+ "bottomSheetData": {
+  "format-selector": {
+   "widgets": [
+    {
+     "type": "vertical-text-list",
+     "data": [
+      {
+       "text": "Avengers: Doomsday",
+       "styleId": "bottomsheet-subtitle",
+       "uuid": "da7f5ae0-71c6-4fc7-82d4-571e548dcbba"
+      },
+      {
+       "text": "Select language and format",
+       "styleId": "bottomsheet-title",
+       "uuid": "9283442b-7679-4d81-b312-e29ffb945d17"
+      }
+     ],
+     "uuid": "1d5016c1-5eb7-4e74-930c-26799b152432"
+    },
+    {
+     "type": "chip-list",
+     "text": "English",
+     "data": [
+      {
+       "type": "chip",
+       "title": "2D",
+       "cta": {
+        "type": "formatSelector",
+        "analytics": {
+         "event_code": "ET00439706",
+         "event_name": "language_format_selected",
+         "event_type": "click",
+         "format": "2D",
+         "screen_name": "movie_showtimes",
+         "uuid": "17b14b9c-6bf0-4dc0-8183-046e30dd9ba3"
+        },
+        "additionalData": {
+         "eventCode": "ET00439706",
+         "eventUrl": "avengers-doomsday",
+         "isDisabled": true,
+         "language": "English",
+         "refEventCode": "ET00439706",
+         "uuid": "4050636b-9768-4aee-98bb-d14e478ba460"
+        },
+        "uuid": "32259cac-efbb-43c7-8c6d-6a37f3597a9c"
+       },
+       "uuid": "2f34537e-da70-4ec1-a594-e5ff70bf58e9"
+      },
+      {
+       "type": "chip",
+       "title": "MS - Inf Vsn 4DX 3D",
+       "cta": {
+        "type": "formatSelector",
+        "analytics": {
+         "event_code": "ET00526320",
+         "event_name": "language_format_selected",
+         "event_type": "click",
+         "format": "MS - Inf Vsn 4DX 3D",
+         "screen_name": "movie_showtimes",
+         "uuid": "10c3c5f5-dd57-4a17-a6ce-fda335eecdf4"
+        },
+        "additionalData": {
+         "eventCode": "ET00526320",
+         "eventUrl": "avengers-doomsday-ms-infinity-vision4dx-3d",
+         "language": "English",
+         "refEventCode": "ET00526320",
+         "uuid": "f4771b2d-ff87-4fc5-a79a-d745d69dbca2"
+        },
+        "uuid": "c99ed7fa-f7d7-4795-80c6-016289374ca4"
+       },
+       "uuid": "d1b7453c-0fc3-404e-a7bb-f3d0192e18dd"
+      },
+      {
+       "type": "chip",
+       "title": "MS - Infinity Vision",
+       "cta": {
+        "type": "formatSelector",
+        "analytics": {
+         "event_code": "ET00526287",
+         "event_name": "language_format_selected",
+         "event_type": "click",
+         "format": "MS - Infinity Vision",
+         "screen_name": "movie_showtimes",
+         "uuid": "af009920-7743-46cd-b4d7-628032d7b3a1"
+        },
+        "additionalData": {
+         "eventCode": "ET00526287",
+         "eventUrl": "avengers-doomsday-ms-infinity-vision-2d",
+         "language": "English",
+         "refEventCode": "ET00526287",
+         "uuid": "4f2bafa5-a66f-478e-b095-854e4f0e5665"
+        },
+        "uuid": "3ccacb70-17af-4e25-876c-9404c465294a"
+       },
+       "uuid": "83c6d6a3-77c7-481e-8af4-f5fd830f29b2"
+      },
+      {
+       "type": "chip",
+       "title": "MS-Infinity Vsn 3d",
+       "cta": {
+        "type": "formatSelector",
+        "analytics": {
+         "event_code": "ET00526306",
+         "event_name": "language_format_selected",
+         "event_type": "click",
+         "format": "MS-Infinity Vsn 3d",
+         "screen_name": "movie_showtimes",
+         "uuid": "c3e0d2d4-0345-4b29-bc41-0bd7cf625ca7"
+        },
+        "additionalData": {
+         "eventCode": "ET00526306",
+         "eventUrl": "avengers-doomsday-ms-infinity-vsn-3d",
+         "language": "English",
+         "refEventCode": "ET00526306",
+         "uuid": "73c59d89-99d6-40f4-882b-4990660ed8dc"
+        },
+        "uuid": "c4492acd-4a09-40d9-9c3f-770b1249b040"
+       },
+       "uuid": "1896025e-75d4-431f-8398-e3616d6ab403"
+      },
+      {
+       "type": "chip",
+       "title": "Select all",
+       "cta": {
+        "type": "formatSelector",
+        "analytics": {
+         "event_name": "language_format_selected",
+         "event_type": "click",
+         "format": "all_formats",
+         "language": "English",
+         "screen_name": "movie_showtimes",
+         "uuid": "cc9142b0-3e21-49a2-ab65-25e9e22240fd"
+        },
+        "additionalData": {
+         "eventCode": "*",
+         "language": "English",
+         "refEventCode": "ET00439706",
+         "uuid": "4fa1bbae-6d8b-4ac4-bfa0-fa8a4e6c41e3"
+        },
+        "uuid": "fe922171-3c0b-409b-babb-622558fd4a32"
+       },
+       "uuid": "57654b06-d3af-4f81-a97d-d66292376ca9"
+      }
+     ],
+     "uuid": "832849ff-7e30-453c-bf5b-79489834a46f"
+    },
+    {
+     "type": "chip-list",
+     "text": "Telugu",
+     "data": [
+      {
+       "type": "chip",
+       "title": "MS-Infinity Vsn 3d",
+       "cta": {
+        "type": "formatSelector",
+        "analytics": {
+         "event_code": "ET00526323",
+         "event_name": "language_format_selected",
+         "event_type": "click",
+         "format": "MS-Infinity Vsn 3d",
+         "screen_name": "movie_showtimes",
+         "uuid": "5790b88c-815b-4756-8e9c-78cc11d9141c"
+        },
+        "additionalData": {
+         "eventCode": "ET00526323",
+         "eventUrl": "avengers-doomsday-ms-infinity-vsn-3dtelugu",
+         "language": "Telugu",
+         "refEventCode": "ET00526323",
+         "uuid": "e1d18fe8-4a8a-4c53-a2e1-0a164ba78a46"
+        },
+        "uuid": "b76c696c-09c8-485c-b567-46fa5caa22e7"
+       },
+       "uuid": "2aa7ae7e-07f0-4218-ba71-93967f285d95"
+      }
+     ],
+     "uuid": "db61557f-3d4b-4a8d-ac34-d56d2bb60350"
+    }
+   ],
+   "analytics": {
+    "event_name": "language_format_viewed",
+    "event_type": "screen_view",
+    "uuid": "4066089d-b1d0-4367-9e26-8de9a9a3fbfc"
+   },
+   "uuid": "8414dece-cebd-46cc-9bac-9b7f09910a3d"
+  }
+ },
+ "showtimeWidgets": [
+  {
+   "type": "adtech",
+   "data": [
+    {
+     "id": "AD_MOVIE_SHOWTIMES_CARD",
+     "customFilters": {
+      "eventCode": "ET00439706",
+      "showDate": "20261217",
+      "genre": [
+       "Action",
+       "Adventure",
+       "Fantasy",
+       "Sci-Fi"
+      ],
+      "movieType": "",
+      "uuid": "9aa9cfa6-dccc-4023-b2c6-f5ea82c83836"
+     },
+     "aspectRatio": 5,
+     "uuid": "88434253-5004-4929-9bfe-49f52006cb5c"
+    }
+   ],
+   "filters": [
+    "ALL"
+   ],
+   "sortInfo": {
+    "distance": {
+     "value": 0,
+     "enabled": false,
+     "uuid": "0416ab78-cceb-4672-8f3d-42eb1cf3c37a"
+    },
+    "popularityRank": {
+     "value": 0,
+     "enabled": false,
+     "uuid": "ee5fb594-aa62-4db9-910b-e5d5a9d4a966"
+    },
+    "uuid": "65427494-008a-48db-9758-cb1fa2a52d44"
+   },
+   "uuid": "f9197aba-005a-446f-8430-d64bc36f7e13"
+  },
+  {
+   "type": "groupList",
+   "id": "List_1",
+   "data": [
+    {
+     "type": "venueGroup",
+     "id": "Venue_GROUP_1",
+     "data": [
+      {
+       "type": "venue-card",
+       "additionalData": {
+        "venueCode": "AACN",
+        "seatLegendIds": [
+         "4",
+         "1",
+         "88",
+         "2"
+        ],
+        "seatSelectorFooterText": "default",
+        "bestSeatsDialogBox": "default",
+        "enableBestSeatCelebration": true,
+        "favouriteActionState": "unfavourite",
+        "venueName": "Aparna Cinemas: Nallagandla",
+        "isFnBAvailable": true,
+        "uuid": "dcd52f0a-4f81-41df-a071-1b12b2016623"
+       },
+       "filters": [
+        "pf3",
+        "pf4",
+        "tf1",
+        "tf2",
+        "tf3",
+        "tf4"
+       ],
+       "sortInfo": {
+        "distance": {
+         "value": 4900000,
+         "enabled": true,
+         "uuid": "db000069-0cd9-47f7-97e4-aa8f7e3c2946"
+        },
+        "popularityRank": {
+         "value": 1,
+         "enabled": true,
+         "uuid": "89997b12-eecb-43a7-b24c-33e66cbf70c2"
+        },
+        "uuid": "002cf4c2-10d4-4713-9d7e-d8b5e98a8e1e"
+       },
+       "header": {
+        "data": {
+         "styleId": "header-container-style",
+         "components": [
+          {
+           "type": "image",
+           "data": {
+            "url": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/cinema-icon/aparna-cinemas.png",
+            "styleId": "cinema-icon",
+            "cta": {
+             "type": "redirection",
+             "id": "venueLink",
+             "analytics": {
+              "event_action": "venue_info",
+              "event_name": "showtime_actions",
+              "event_type": "click",
+              "uuid": "2cae4233-fcaf-46bc-89a3-5417ce64ac02"
+             },
+             "additionalData": {
+              "venueCode": "AACN",
+              "venueName": "Aparna Cinemas: Nallagandla",
+              "redirectionUrl": "https://in.bookmyshow.com/cinemas/hyderabad/aparna-cinemas-nallagandla/buytickets/AACN/20261217",
+              "uuid": "87a8df09-3292-4b90-913c-dd20fe984777"
+             },
+             "uuid": "515e958c-6eb9-4892-8bee-10d8dd22cbb1"
+            },
+            "elementType": "a",
+            "elementAttributes": {
+             "alt": "Aparna Cinemas: Nallagandla",
+             "href": "https://in.bookmyshow.com/cinemas/hyderabad/aparna-cinemas-nallagandla/buytickets/AACN/20261217",
+             "uuid": "476d2e5e-2fd2-488f-bbde-8ac231d0fca6"
+            },
+            "uuid": "dec07e5b-ab9b-4a40-98ef-644accfea9fd"
+           },
+           "uuid": "c4dfc5f3-3bee-48e0-ad07-4cf0f566300d"
+          },
+          {
+           "styleId": "header-title-container",
+           "type": "text",
+           "data": {
+            "data": [
+             {
+              "components": [
+               {
+                "text": "Aparna Cinemas: Nallagandla",
+                "styleId": "header-subtitle",
+                "type": "text",
+                "uuid": "7a428fdb-9265-4726-a7d7-f2c73ef50678"
+               },
+               {
+                "styleId": "cinema-info-image-v2",
+                "imageUrl": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/common/infoV2.png",
+                "type": "image",
+                "uuid": "429e6640-89aa-475b-9be2-a44707f5f9ba"
+               }
+              ],
+              "cta": {
+               "type": "bottomsheet",
+               "id": "venueInfo",
+               "analytics": {
+                "event_action": "venue_info",
+                "event_name": "showtime_actions",
+                "event_type": "click",
+                "uuid": "979521b0-d0f7-4a51-ba1a-7bfb7f2780f2"
+               },
+               "additionalData": {
+                "venueCode": "AACN",
+                "venueName": "Aparna Cinemas: Nallagandla",
+                "uuid": "ea433e35-1e2d-4a53-9cf8-c0ec4ff73bea"
+               },
+               "uuid": "c728839e-c9e1-431d-bace-afd95d7690b5"
+              },
+              "uuid": "88a0abd0-0db7-4586-badc-9d858efafaf9"
+             }
+            ],
+            "uuid": "828c3fba-bccc-4319-b9d3-e4f4edb1d546"
+           },
+           "uuid": "3d352c08-a1b3-426c-b2a4-9cede7569c7d"
+          },
+          {
+           "styleId": "favourite-icon",
+           "type": "action",
+           "data": {
+            "id": "actionStates",
+            "cta": {
+             "type": "venueFavourite",
+             "analytics": {
+              "event_name": "favourite_venue_selected",
+              "event_type": "click",
+              "venue_code": "AACN",
+              "uuid": "e6023e71-063a-44ec-9465-27d6249c5d0f"
+             },
+             "uuid": "07d81eb2-edef-4d16-a99c-66d71d9c2112"
+            },
+            "uuid": "605e5879-dfac-44b1-95d9-8e958e9505d1"
+           },
+           "uuid": "03010e93-4a39-4949-a784-dfc297883955"
+          }
+         ],
+         "uuid": "bafe92aa-56c4-489e-9e33-018804e06626"
+        },
+        "uuid": "10317cbf-3fbb-405e-95f4-a46ae5bd6832"
+       },
+       "infoList": [
+        {
+         "label": "Non-cancellable",
+         "textColor": "#666666",
+         "uuid": "6b70504d-5c28-493e-b98b-aeaff5678db1"
+        }
+       ],
+       "showtimesSections": [
+        {
+         "showtimes": [
+          {
+           "title": "08:00 AM",
+           "screenAttr": "INFINITY VISION DOLBY ATMOS",
+           "styleId": "grey-pill-with-border",
+           "cta": {
+            "type": "toast",
+            "analytics": {
+             "label": "morning_show",
+             "uuid": "77689639-9cd0-4409-b3d1-629becaeb457"
+            },
+            "additionalData": {
+             "toastData": {
+              "title": "All the tickets for this show are sold out",
+              "uuid": "bfd639e8-33d8-4d15-88b9-583b2ebd8410"
+             },
+             "uuid": "8064ff36-35f6-4c2d-b5c1-55493f55b9ce"
+            },
+            "uuid": "c3b1613c-c8f4-4114-a696-d2ece80f3d08"
+           },
+           "additionalData": {
+            "sessionId": "35134",
+            "availStatus": "0",
+            "cutOffDateTime": "202612170800",
+            "cutOffDateTimeEpoch": "1797474600",
+            "showDateCode": "20261217",
+            "showDateTime": "202612170800",
+            "showTimeCode": "0800",
+            "showTime": "08:00 AM",
+            "attributes": "INFINITY VISION DOLBY ATMOS",
+            "uuid": "014b3b7c-4d33-470b-a350-e99e5493668e"
+           },
+           "filters": [
+            "pf3",
+            "pf4",
+            "tf1"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | INFINITY VISION DOLBY ATMOS",
+                 "uuid": "8c66ed47-eec2-4382-9beb-c548290cb748"
+                },
+                "uuid": "c5f38939-88ce-4fda-bee9-730b8468f0a8"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "a0d452a3-8678-4029-9666-4070ca42ede3"
+                },
+                "uuid": "e08ca175-1078-4839-b5dd-d37a2c00ae67"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 350.00",
+                 "seatType": "GOLD",
+                 "uuid": "d0b64814-a841-4fad-8ff1-6ae3d247cf71"
+                },
+                "uuid": "a805165c-498f-4796-8be0-e019eca72a7e"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "EXECUTIVE",
+                 "uuid": "8b8ae5b2-006f-415c-b936-64059cac0154"
+                },
+                "uuid": "3366904d-715f-4905-9daa-71e65e18d82b"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "LOUNGES",
+                 "uuid": "313f2f66-cc15-4f05-ae6c-dbe421443e2b"
+                },
+                "uuid": "f0850851-4a9d-4713-8489-a5b103fc19b4"
+               }
+              ],
+              "uuid": "4f506ba1-d084-4d40-b627-a33a74df04c1"
+             },
+             "uuid": "3b24d813-c7a3-441d-addd-c262428e3ae4"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "0cf939a7-ad75-4ec5-88a8-d9a6695ca0d5"
+            },
+            "uuid": "9939b8a7-27a3-4d24-bdfd-f23222042f97"
+           },
+           "overlayId": "earlyMorning",
+           "uuid": "99b2876c-9e0a-4352-9b7e-54ff4fb722c7"
+          },
+          {
+           "title": "11:00 AM",
+           "screenAttr": "INFINITY VISION DOLBY ATMOS",
+           "styleId": "grey-pill-with-border",
+           "cta": {
+            "type": "toast",
+            "additionalData": {
+             "toastData": {
+              "title": "All the tickets for this show are sold out",
+              "uuid": "7c59e760-eb42-452a-aaeb-96675ac85896"
+             },
+             "uuid": "f04ccb2b-4a45-4918-8adf-dab87be174b9"
+            },
+            "uuid": "cd3d3c00-696d-4deb-b088-73d18a4cb332"
+           },
+           "additionalData": {
+            "sessionId": "35135",
+            "availStatus": "0",
+            "cutOffDateTime": "202612171100",
+            "cutOffDateTimeEpoch": "1797485400",
+            "showDateCode": "20261217",
+            "showDateTime": "202612171100",
+            "showTimeCode": "1100",
+            "showTime": "11:00 AM",
+            "attributes": "INFINITY VISION DOLBY ATMOS",
+            "uuid": "dc7621bf-1d5a-4e9f-96b9-8257b8071793"
+           },
+           "filters": [
+            "pf3",
+            "pf4",
+            "tf1"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | INFINITY VISION DOLBY ATMOS",
+                 "uuid": "cb11e2c2-c58b-418c-9384-a4ccdcb8f560"
+                },
+                "uuid": "162b9400-a519-478a-91d9-312224dbd68e"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "c0fbcb3d-baff-461d-8bb7-1eee69d4d418"
+                },
+                "uuid": "0864d145-9f39-495a-8ea3-9be0ea52aa25"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 350.00",
+                 "seatType": "GOLD",
+                 "uuid": "2f03147c-048e-43b1-a741-db68ef80b79d"
+                },
+                "uuid": "9531d4ed-2505-48d9-8c5c-9b68aeb8eff0"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "EXECUTIVE",
+                 "uuid": "f97c84a8-f1d2-4507-9137-598ce0a377ed"
+                },
+                "uuid": "a8eea408-b59a-494f-816a-a3fb38df4cd6"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "LOUNGES",
+                 "uuid": "a11a2fb3-30bf-4273-b626-f3c6b487da01"
+                },
+                "uuid": "e48badc0-71d4-45a1-8459-4fcb1d199966"
+               }
+              ],
+              "uuid": "a16aac54-7dbd-4f24-99da-b5d33389ccac"
+             },
+             "uuid": "045a6099-61ac-4ba1-849a-9145f6e3a490"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "e1953378-55d1-4748-a7bf-c76dd677bbe2"
+            },
+            "uuid": "72302b9e-e4c9-4c6a-b194-0a9a3da262c2"
+           },
+           "uuid": "3a7c21ad-7b66-4686-91a5-514c65018e19"
+          },
+          {
+           "title": "02:00 PM",
+           "screenAttr": "INFINITY VISION DOLBY ATMOS",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "ACPL",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "INFINITY VISION DOLBY ATMOS",
+             "show_session_id": "35136",
+             "show_time": "14:00",
+             "type": "actual_icon",
+             "uuid": "7e53411a-4051-4963-9d00-03f67e53aaee"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": false,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "48f4789f-62f6-46b9-8e57-ffe6edf72015"
+             },
+             "uuid": "a6373008-7c66-413a-9e25-b42f1ab15cad"
+            },
+            "uuid": "90f00c83-3801-403e-90ef-46cfbf919600"
+           },
+           "additionalData": {
+            "sessionId": "35136",
+            "availStatus": "1",
+            "cutOffDateTime": "202612171400",
+            "cutOffDateTimeEpoch": "1797496200",
+            "showDateCode": "20261217",
+            "showDateTime": "202612171400",
+            "showTimeCode": "1400",
+            "showTime": "02:00 PM",
+            "attributes": "INFINITY VISION DOLBY ATMOS",
+            "uuid": "f4cdc1b6-a6a6-4761-95b0-b7ec7d5ecfd8"
+           },
+           "filters": [
+            "pf3",
+            "pf4",
+            "tf2"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | INFINITY VISION DOLBY ATMOS",
+                 "uuid": "3b647f8a-6ce3-4b15-bb68-9794e490bf6a"
+                },
+                "uuid": "247c60d0-e961-4f62-8d48-0239a946f757"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "bcfd71ed-2b80-4535-b532-90adbbcf6932"
+                },
+                "uuid": "17c44c7e-ae99-4366-80ca-a3e3fd267f8f"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 350.00",
+                 "seatType": "GOLD",
+                 "uuid": "56a4f6f4-90bc-4d5d-9989-d013d777ba38"
+                },
+                "uuid": "d01b9adc-b601-4be9-abca-c4d95b78813f"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "EXECUTIVE",
+                 "uuid": "0fb1a1e2-6748-43b0-95bf-77058861918c"
+                },
+                "uuid": "aa9b5c77-fd71-458a-bede-cfd80e0b19ee"
+               },
+               {
+                "layoutId": "seat-category-type-almost-full",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "ALMOST FULL",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "LOUNGES",
+                 "uuid": "efa6d57e-f34f-4a2a-989c-9be293a02fbd"
+                },
+                "uuid": "e097c3ae-c215-4c72-baf6-d4f017db6bc9"
+               }
+              ],
+              "uuid": "3b695c99-b64c-4e01-b534-8aeebf9ab87e"
+             },
+             "uuid": "0189f13d-5478-4d5b-97e9-67f7be5f5504"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "34c4c0c6-8764-42f7-b6bc-d880ce0db02e"
+            },
+            "uuid": "dcb3fc74-c5e6-43da-883e-abe9b26cd780"
+           },
+           "uuid": "3740f578-2179-407c-ac4d-9006ec6b9867"
+          },
+          {
+           "title": "05:00 PM",
+           "screenAttr": "INFINITY VISION DOLBY ATMOS",
+           "styleId": "grey-pill-with-border",
+           "cta": {
+            "type": "toast",
+            "additionalData": {
+             "toastData": {
+              "title": "All the tickets for this show are sold out",
+              "uuid": "12d53d08-e5be-43f3-8ebc-0ccb1e4b002b"
+             },
+             "uuid": "115069b7-622f-4ccd-8592-af3e6e8071a8"
+            },
+            "uuid": "4cd94e43-30ed-409f-b286-e380c0fa25ad"
+           },
+           "additionalData": {
+            "sessionId": "35137",
+            "availStatus": "0",
+            "cutOffDateTime": "202612171700",
+            "cutOffDateTimeEpoch": "1797507000",
+            "showDateCode": "20261217",
+            "showDateTime": "202612171700",
+            "showTimeCode": "1700",
+            "showTime": "05:00 PM",
+            "attributes": "INFINITY VISION DOLBY ATMOS",
+            "uuid": "f74a48bc-e578-4909-80c3-8c53b0d31de8"
+           },
+           "filters": [
+            "pf3",
+            "pf4",
+            "tf3"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | INFINITY VISION DOLBY ATMOS",
+                 "uuid": "501e15e7-e9dc-4c82-8ac6-2a582b3eddaa"
+                },
+                "uuid": "bfea9584-eafa-45ad-9267-09b7bce51d38"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "e4a9e2cd-98ac-4eba-981b-099e0fba7e3e"
+                },
+                "uuid": "22fe9a41-0c32-4d4e-9e1e-60b7fd798122"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 350.00",
+                 "seatType": "GOLD",
+                 "uuid": "9a695a08-9c31-4a72-ace6-0a234e66c385"
+                },
+                "uuid": "e3b5f062-8498-44bc-a7d8-92cffb3a6b14"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "LOUNGES",
+                 "uuid": "ccd8424b-7f79-4663-b923-bd1d1189e5d9"
+                },
+                "uuid": "5f5bb29e-8f06-4cc4-9bf0-63ef0f9e30f5"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "EXECUTIVE",
+                 "uuid": "e9800387-c804-4d6d-aa1e-8911a9a92753"
+                },
+                "uuid": "4c2c5ff8-d795-4dca-b039-7d257ee7f1d9"
+               }
+              ],
+              "uuid": "dbd17002-4dc0-45fd-b01a-a047682f2a67"
+             },
+             "uuid": "44ab20ff-ce91-4fa8-8d70-9bcd172938b8"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "b5f022d5-e010-42a5-a5d6-25639e75259c"
+            },
+            "uuid": "fef02dfa-d550-41dc-af36-e804d2610ff2"
+           },
+           "uuid": "773207d6-b30b-4e22-8317-c3c0dfe46506"
+          },
+          {
+           "title": "08:00 PM",
+           "screenAttr": "INFINITY VISION DOLBY ATMOS",
+           "styleId": "grey-pill-with-border",
+           "cta": {
+            "type": "toast",
+            "additionalData": {
+             "toastData": {
+              "title": "All the tickets for this show are sold out",
+              "uuid": "1161d855-6bf6-4741-9b90-208a5b183ce6"
+             },
+             "uuid": "02bff631-a555-4d16-abca-bffe26d38db2"
+            },
+            "uuid": "075394e8-9829-40e3-8590-2beb19a00cdf"
+           },
+           "additionalData": {
+            "sessionId": "35138",
+            "availStatus": "0",
+            "cutOffDateTime": "202612172000",
+            "cutOffDateTimeEpoch": "1797517800",
+            "showDateCode": "20261217",
+            "showDateTime": "202612172000",
+            "showTimeCode": "2000",
+            "showTime": "08:00 PM",
+            "attributes": "INFINITY VISION DOLBY ATMOS",
+            "uuid": "5e8911ec-39fd-4631-968a-a489e5489b3b"
+           },
+           "filters": [
+            "pf3",
+            "pf4",
+            "tf4"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | INFINITY VISION DOLBY ATMOS",
+                 "uuid": "24470ddd-dd9b-4c74-9713-775e64efd5f0"
+                },
+                "uuid": "4d87b600-18cc-4b81-aa4c-c6292a48fda0"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "20317e2c-dd25-4f46-8835-4a53bf7bfda6"
+                },
+                "uuid": "5c992ca3-f256-4c77-9f64-fe9463e952c7"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 350.00",
+                 "seatType": "GOLD",
+                 "uuid": "44900e25-b0c9-4cdc-babc-e806460acfe7"
+                },
+                "uuid": "2cf80ab3-1466-42c5-b500-c262e5ee1893"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "LOUNGES",
+                 "uuid": "ab6dfd56-486c-4cf6-82cc-767313c8c754"
+                },
+                "uuid": "081992e3-ede2-4716-a6ca-762c804f3465"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "EXECUTIVE",
+                 "uuid": "dea77b14-67f2-4419-be34-8fe95b29b2bd"
+                },
+                "uuid": "62b5b880-db7d-447d-8499-76417831e27f"
+               }
+              ],
+              "uuid": "41bf6fb1-c2cb-4215-b937-3ee1165c0047"
+             },
+             "uuid": "f3c055e0-7618-43e5-a852-e8d393f446a8"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "ce942156-e824-4e31-9fbd-50758514c8cb"
+            },
+            "uuid": "5d184a80-3235-4315-ac5b-468077f54caa"
+           },
+           "uuid": "b210d4d7-62d9-4f0a-a3db-437537fc0a33"
+          },
+          {
+           "title": "11:05 PM",
+           "screenAttr": "INFINITY VISION DOLBY ATMOS",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "ACPL",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "INFINITY VISION DOLBY ATMOS",
+             "label": "night_show",
+             "show_session_id": "35139",
+             "show_time": "23:05",
+             "type": "actual_icon",
+             "uuid": "2635cff2-c57c-4539-b281-6771471f5ce1"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": false,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "2c9442c7-e4c4-4145-9b2a-e8e71c8b9b54"
+             },
+             "uuid": "0b9ac586-fc75-4393-95da-5790e97ad779"
+            },
+            "uuid": "298edba6-0a96-40e6-88bf-01781c40ddd3"
+           },
+           "additionalData": {
+            "sessionId": "35139",
+            "availStatus": "1",
+            "cutOffDateTime": "202612172305",
+            "cutOffDateTimeEpoch": "1797528900",
+            "showDateCode": "20261217",
+            "showDateTime": "202612172305",
+            "showTimeCode": "2305",
+            "showTime": "11:05 PM",
+            "attributes": "INFINITY VISION DOLBY ATMOS",
+            "uuid": "dac6e871-66e8-4e8a-accc-8ae0c2bf1376"
+           },
+           "filters": [
+            "pf3",
+            "pf4",
+            "tf4"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | INFINITY VISION DOLBY ATMOS",
+                 "uuid": "9e423904-f8e0-49bd-8051-c548c39c1fad"
+                },
+                "uuid": "375ca1c5-cbcf-481a-b03a-f6a8dc2f10b2"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "99e9a3bd-0fb4-4cbf-b676-22efd2f75a0c"
+                },
+                "uuid": "f8bc289b-7166-473d-8f45-63e41d581760"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 350.00",
+                 "seatType": "GOLD",
+                 "uuid": "69e4851d-ec6f-483b-b855-0581cd3c935b"
+                },
+                "uuid": "39dca6ad-5a20-4ad3-aaa6-1b5094cfa495"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "LOUNGES",
+                 "uuid": "e3531660-21ee-42b0-8351-3105652bd74a"
+                },
+                "uuid": "14f30762-3350-4844-96e3-5990f4b01f6d"
+               },
+               {
+                "layoutId": "seat-category-type-almost-full",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "ALMOST FULL",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "EXECUTIVE",
+                 "uuid": "64c833b1-cb7b-4eea-ac2a-b01c9e21c20d"
+                },
+                "uuid": "a33a41a8-ec0b-4278-bd53-46f6a181a8c4"
+               }
+              ],
+              "uuid": "30ae52a6-f7e2-485b-95ba-21197c1077f5"
+             },
+             "uuid": "261d3e3a-9fb8-4d94-96fa-9c7ff932ddfa"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "597d8574-788f-4f44-9fad-4c51723593d7"
+            },
+            "uuid": "0e1d3dbd-1fd3-4c82-bbb2-95bc24f2d5a7"
+           },
+           "overlayId": "lateNight",
+           "uuid": "fcc81aef-c903-4a9e-8dbc-20d7bc47be51"
+          }
+         ],
+         "filters": [
+          "tf4",
+          "pf3",
+          "pf4",
+          "tf1",
+          "tf2",
+          "tf3"
+         ],
+         "additionalData": {
+          "eventCode": "ET00439706",
+          "uuid": "9d597452-c1d2-4d4b-87a1-c11a7c102fb8"
+         },
+         "uuid": "516633a2-6d43-41d8-855a-2944d8dc61ef"
+        }
+       ],
+       "analytics": {
+        "display_position": "1",
+        "event_name": "showtime_card_viewed",
+        "event_type": "impression",
+        "is_favourite": "false",
+        "label": "morning_show, night_show",
+        "venue_code": "AACN",
+        "uuid": "e80a6d2c-5b4e-47f2-902f-96dcf607c762"
+       },
+       "styleId": "venue-card-style",
+       "id": "AACN",
+       "uuid": "dc599440-c588-4180-ad0b-5ff39f81dce4"
+      },
+      {
+       "type": "venue-card",
+       "additionalData": {
+        "venueCode": "APNS",
+        "seatLegendIds": [
+         "4",
+         "1",
+         "88",
+         "2"
+        ],
+        "seatSelectorFooterText": "default",
+        "bestSeatsDialogBox": "default",
+        "enableBestSeatCelebration": true,
+        "favouriteActionState": "unfavourite",
+        "venueName": "Aparna Cinemas: Shamshabad",
+        "isFnBAvailable": true,
+        "isMTicketAvailable": true,
+        "uuid": "f1ebade6-d94e-4adc-ae30-b7a307f2da64"
+       },
+       "filters": [
+        "pf3",
+        "pf4",
+        "tf1",
+        "tf2",
+        "tf3",
+        "tf4"
+       ],
+       "sortInfo": {
+        "distance": {
+         "value": 4900000,
+         "enabled": true,
+         "uuid": "30fa6497-0d73-44c4-9595-deb4a8ef367e"
+        },
+        "popularityRank": {
+         "value": 2,
+         "enabled": true,
+         "uuid": "7abe3e97-4c9b-4894-81d0-5b494cd5808d"
+        },
+        "uuid": "a9278c64-e78c-4cb6-a82c-864414a70c7f"
+       },
+       "header": {
+        "data": {
+         "styleId": "header-container-style",
+         "components": [
+          {
+           "type": "image",
+           "data": {
+            "url": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/cinema-icon/aparna-cinemas.png",
+            "styleId": "cinema-icon",
+            "cta": {
+             "type": "redirection",
+             "id": "venueLink",
+             "analytics": {
+              "event_action": "venue_info",
+              "event_name": "showtime_actions",
+              "event_type": "click",
+              "uuid": "51b86db2-1905-440c-96bb-e74254a215ad"
+             },
+             "additionalData": {
+              "venueCode": "APNS",
+              "venueName": "Aparna Cinemas: Shamshabad",
+              "redirectionUrl": "https://in.bookmyshow.com/cinemas/hyderabad/aparna-cinemas-shamshabad/buytickets/APNS/20261217",
+              "uuid": "018a8ca3-097c-4f4d-9769-578bed2ceeb4"
+             },
+             "uuid": "ace9a1de-1f0b-44e6-b39d-bfd16a6775e7"
+            },
+            "elementType": "a",
+            "elementAttributes": {
+             "alt": "Aparna Cinemas: Shamshabad",
+             "href": "https://in.bookmyshow.com/cinemas/hyderabad/aparna-cinemas-shamshabad/buytickets/APNS/20261217",
+             "uuid": "d4a5c34f-a8fd-49e5-887f-8ddd88292b54"
+            },
+            "uuid": "97637f64-a964-454f-a916-dbb89cd86920"
+           },
+           "uuid": "0816eb70-1c09-4d42-acb4-3b744fdddc7b"
+          },
+          {
+           "styleId": "header-title-container",
+           "type": "text",
+           "data": {
+            "data": [
+             {
+              "components": [
+               {
+                "text": "Aparna Cinemas: Shamshabad",
+                "styleId": "header-subtitle",
+                "type": "text",
+                "uuid": "e0ae8840-fb61-4674-b089-fd8f6c8f72d8"
+               },
+               {
+                "styleId": "cinema-info-image-v2",
+                "imageUrl": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/common/infoV2.png",
+                "type": "image",
+                "uuid": "080d2062-b3e0-47b0-a49c-40d85bedd6d4"
+               }
+              ],
+              "cta": {
+               "type": "bottomsheet",
+               "id": "venueInfo",
+               "analytics": {
+                "event_action": "venue_info",
+                "event_name": "showtime_actions",
+                "event_type": "click",
+                "uuid": "db6c67b8-dd39-4466-804b-5e16ba6957f0"
+               },
+               "additionalData": {
+                "venueCode": "APNS",
+                "venueName": "Aparna Cinemas: Shamshabad",
+                "uuid": "ddf9c291-8b64-488a-a52f-9b2764da5bd0"
+               },
+               "uuid": "aa40a66d-8163-437f-b315-62cc5ec566a6"
+              },
+              "uuid": "fefe87a0-b03e-4df6-bee7-8aefb6cf9250"
+             }
+            ],
+            "uuid": "5009b77f-e7ca-41ef-81af-faaf7dc27854"
+           },
+           "uuid": "c6558919-2efd-4b22-a895-d6fa3fdd28ad"
+          },
+          {
+           "styleId": "favourite-icon",
+           "type": "action",
+           "data": {
+            "id": "actionStates",
+            "cta": {
+             "type": "venueFavourite",
+             "analytics": {
+              "event_name": "favourite_venue_selected",
+              "event_type": "click",
+              "venue_code": "APNS",
+              "uuid": "e5b7b4d8-33aa-4468-8e42-35204596617b"
+             },
+             "uuid": "d9b99650-ee88-476d-8db9-1ced041dc00d"
+            },
+            "uuid": "832f1624-e330-4b14-85d9-2c82ea1101a8"
+           },
+           "uuid": "f6e5693a-a474-4199-8454-e26174de1d43"
+          }
+         ],
+         "uuid": "468eda11-bbfa-4eb9-b728-c06beba46c8c"
+        },
+        "uuid": "2f07c8aa-8b0f-4dc8-9510-ec659aa5cae3"
+       },
+       "infoList": [
+        {
+         "label": "Non-cancellable",
+         "textColor": "#666666",
+         "uuid": "4ab2eb25-a6e3-42b5-89eb-ee8e9bd12db6"
+        }
+       ],
+       "showtimesSections": [
+        {
+         "showtimes": [
+          {
+           "title": "08:00 AM",
+           "screenAttr": "Infinity Vision Dolby Atmos",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "ACPL",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "Infinity Vision Dolby Atmos",
+             "label": "morning_show",
+             "show_session_id": "6330",
+             "show_time": "08:00",
+             "type": "actual_icon",
+             "uuid": "5c68ae33-0f2f-4e04-a056-2d3912772c66"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": false,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "8381662b-e9a2-4b2a-8256-a2d839151378"
+             },
+             "uuid": "e1047f06-e45a-4c2b-bd2f-e4772cf9a8ad"
+            },
+            "uuid": "f63d3fb6-f9ce-4beb-a776-313010c92c02"
+           },
+           "additionalData": {
+            "sessionId": "6330",
+            "availStatus": "1",
+            "cutOffDateTime": "202612170800",
+            "cutOffDateTimeEpoch": "1797474600",
+            "showDateCode": "20261217",
+            "showDateTime": "202612170800",
+            "showTimeCode": "0800",
+            "showTime": "08:00 AM",
+            "attributes": "Infinity Vision Dolby Atmos",
+            "uuid": "389dee8e-c77f-4247-bbcb-40243c6565e1"
+           },
+           "filters": [
+            "pf3",
+            "pf4",
+            "tf1"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | Infinity Vision Dolby Atmos",
+                 "uuid": "b94698dc-3ef7-4e37-9bcb-ec71bfa44ed1"
+                },
+                "uuid": "982061f0-6cad-48ab-86d2-b8e1eb6970ca"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "7da36c9f-819c-4abc-84b8-29ea7279b398"
+                },
+                "uuid": "fc82668a-6870-4b8a-84a1-268817ef1e2f"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 350.00",
+                 "seatType": "GOLD",
+                 "uuid": "e99161ec-c19a-4282-93b7-1d13f5989a03"
+                },
+                "uuid": "2d193003-be90-4c4a-97c6-e37e3c2c1537"
+               },
+               {
+                "layoutId": "seat-category-type-almost-full",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "ALMOST FULL",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "CLASSIC",
+                 "uuid": "6320721e-92eb-4873-a645-5625213e6cfa"
+                },
+                "uuid": "3fce0835-e1f7-44ca-81ac-3b22c03b9c28"
+               },
+               {
+                "layoutId": "seat-category-type-filling-fast",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "FILLING FAST",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "LOUNGES",
+                 "uuid": "55748796-84b1-4452-bd0c-5f9be73a746f"
+                },
+                "uuid": "a5f3866e-41b5-4706-9178-b10a21da83b3"
+               }
+              ],
+              "uuid": "bf016fc8-50ea-4bc4-918b-6e9e1debf900"
+             },
+             "uuid": "5337856f-27b2-4ef2-a987-45a8ee63fcd6"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "0e336a3a-6f7e-4ebe-b0fa-5aecc5c8113b"
+            },
+            "uuid": "0ce753c9-d185-4b06-97d0-e6fc3f3466a0"
+           },
+           "overlayId": "earlyMorning",
+           "uuid": "d09c997d-5c0c-45a2-afea-8311dd81eae7"
+          },
+          {
+           "title": "11:00 AM",
+           "screenAttr": "Infinity Vision Dolby Atmos",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "ACPL",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "Infinity Vision Dolby Atmos",
+             "metadata": "{\"venue_info\":[\"fast_filling\"]}",
+             "show_session_id": "6331",
+             "show_time": "11:00",
+             "type": "actual_icon",
+             "uuid": "e3afb20e-cbf0-4f51-a829-2749a7f3b4a5"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": false,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "dac8a0c3-648d-40d0-acc4-1069be59e1e8"
+             },
+             "uuid": "f73a0b31-0ae2-4110-9fe2-fc551ab78885"
+            },
+            "uuid": "4e0f72b0-ff97-4c83-9ad7-43f982b4ce8b"
+           },
+           "additionalData": {
+            "sessionId": "6331",
+            "availStatus": "2",
+            "cutOffDateTime": "202612171100",
+            "cutOffDateTimeEpoch": "1797485400",
+            "showDateCode": "20261217",
+            "showDateTime": "202612171100",
+            "showTimeCode": "1100",
+            "showTime": "11:00 AM",
+            "attributes": "Infinity Vision Dolby Atmos",
+            "uuid": "bb0ae572-242f-4590-a25c-53a983c67b88"
+           },
+           "filters": [
+            "pf3",
+            "pf4",
+            "tf1"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | Infinity Vision Dolby Atmos",
+                 "uuid": "dfe9afa0-fe40-44a0-b724-bedb038ddc6c"
+                },
+                "uuid": "44c56d55-0e39-4a10-9163-513d45d7d720"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "42daa8f1-eccb-46e5-8559-d49730acc9d9"
+                },
+                "uuid": "1a44eb68-e28d-4ae6-8c79-0aa1d6fe758c"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 350.00",
+                 "seatType": "GOLD",
+                 "uuid": "dd1a3d7f-8a7b-49c0-ab2e-7e6f699f4696"
+                },
+                "uuid": "2e0eec03-9c1a-439b-9bb1-a4fa618d427c"
+               },
+               {
+                "layoutId": "seat-category-type-filling-fast",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "FILLING FAST",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "CLASSIC",
+                 "uuid": "2340780d-16df-4bb9-aa18-0fdb10e9875d"
+                },
+                "uuid": "2d98c4a3-870c-47b7-b49e-35b771ab6d30"
+               },
+               {
+                "layoutId": "seat-category-type-available",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "AVAILABLE",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "LOUNGES",
+                 "uuid": "51520923-7a41-4bad-a82f-0a1218c5c3d4"
+                },
+                "uuid": "54e2e5c9-b166-45bb-95da-6c049d2d6ffa"
+               }
+              ],
+              "uuid": "08468178-0dca-4129-9d22-804635ffd7e8"
+             },
+             "uuid": "931fffe7-06a0-42d5-ba72-7551709ffa83"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "3662ba62-2551-476b-95af-cf2021cb1c14"
+            },
+            "uuid": "db6a55b6-3e8b-49f0-b1be-8b4e4cd05248"
+           },
+           "uuid": "3ebe462e-6c20-4490-957d-d6c8ee416b60"
+          },
+          {
+           "title": "02:00 PM",
+           "screenAttr": "Infinity Vision Dolby Atmos",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "ACPL",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "Infinity Vision Dolby Atmos",
+             "metadata": "{\"venue_info\":[\"fast_filling\"]}",
+             "show_session_id": "6332",
+             "show_time": "14:00",
+             "type": "actual_icon",
+             "uuid": "9e2b7c58-f726-4960-949c-d11abcb776e4"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": false,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "adcf8255-c4fc-43ce-9e69-5b8df4a4f1f8"
+             },
+             "uuid": "89d05a74-0ae4-46c7-8a70-4a4949efa649"
+            },
+            "uuid": "dee746c6-34ea-4995-8721-1dd0263f6cd1"
+           },
+           "additionalData": {
+            "sessionId": "6332",
+            "availStatus": "2",
+            "cutOffDateTime": "202612171400",
+            "cutOffDateTimeEpoch": "1797496200",
+            "showDateCode": "20261217",
+            "showDateTime": "202612171400",
+            "showTimeCode": "1400",
+            "showTime": "02:00 PM",
+            "attributes": "Infinity Vision Dolby Atmos",
+            "uuid": "fc47c4a1-9572-40a8-ba2d-d939b79f12a1"
+           },
+           "filters": [
+            "pf3",
+            "pf4",
+            "tf2"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | Infinity Vision Dolby Atmos",
+                 "uuid": "24a25f73-2973-4c5a-ae70-5a9a427fa95a"
+                },
+                "uuid": "d33e6834-85bd-44bb-82b6-ec7bc455471a"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "375ca56f-95f8-4173-ba15-be190f82b72d"
+                },
+                "uuid": "e96187a1-925b-43ac-b068-8729c0daa3c0"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 350.00",
+                 "seatType": "GOLD",
+                 "uuid": "e5c96604-fcc2-4fa1-9bd5-ed4e8b58646a"
+                },
+                "uuid": "3519ccf1-db93-493b-9ed9-97259c66117d"
+               },
+               {
+                "layoutId": "seat-category-type-filling-fast",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "FILLING FAST",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "CLASSIC",
+                 "uuid": "5d0a48cd-375d-4309-8c4f-28f770cc3e2a"
+                },
+                "uuid": "4fed2d04-47fc-4249-9d04-b2d8ac93dce7"
+               },
+               {
+                "layoutId": "seat-category-type-available",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "AVAILABLE",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "LOUNGES",
+                 "uuid": "8c9494e8-1952-49ba-a6de-b0050d548660"
+                },
+                "uuid": "52a08a9e-7903-4ab0-b35b-e8522f5f8808"
+               }
+              ],
+              "uuid": "c1b27b8f-a197-450a-bc0c-46ce7db24499"
+             },
+             "uuid": "8a184125-bc12-4476-b1f2-d2b22981915c"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "111288bd-ab39-4ad5-9a3b-e028958e2095"
+            },
+            "uuid": "3f203ecc-eede-4c8a-b517-369df3e66ddf"
+           },
+           "uuid": "2e1996de-a688-4fa3-a6ed-f7988826f3b5"
+          },
+          {
+           "title": "05:00 PM",
+           "screenAttr": "Infinity Vision Dolby Atmos",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "ACPL",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "Infinity Vision Dolby Atmos",
+             "show_session_id": "6333",
+             "show_time": "17:00",
+             "type": "actual_icon",
+             "uuid": "0f85b9e8-bb12-4bbd-be7c-635aa2180902"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": false,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "5342f5d9-2105-4c87-8d55-623cfaf157a1"
+             },
+             "uuid": "bb2eb38d-ab05-43c1-aa24-96e4f57237a4"
+            },
+            "uuid": "a8a91e91-774a-44c2-b48a-064e6fecede4"
+           },
+           "additionalData": {
+            "sessionId": "6333",
+            "availStatus": "1",
+            "cutOffDateTime": "202612171700",
+            "cutOffDateTimeEpoch": "1797507000",
+            "showDateCode": "20261217",
+            "showDateTime": "202612171700",
+            "showTimeCode": "1700",
+            "showTime": "05:00 PM",
+            "attributes": "Infinity Vision Dolby Atmos",
+            "uuid": "031d9ed2-e1cf-4ab1-a039-5ba859d8b7ba"
+           },
+           "filters": [
+            "pf3",
+            "pf4",
+            "tf3"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | Infinity Vision Dolby Atmos",
+                 "uuid": "52a7186a-330a-468b-b2ae-cd881bc27b43"
+                },
+                "uuid": "5da1fcde-82e6-444d-a0fc-33c87f61ee55"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "90712242-c005-4710-813c-4ce58d99d00b"
+                },
+                "uuid": "d1843ff0-8199-4e35-8a9c-b62772dbb060"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 350.00",
+                 "seatType": "GOLD",
+                 "uuid": "2bc9b745-68e8-4e95-9b8b-fb27efb5358a"
+                },
+                "uuid": "f733db1b-2699-45a8-93cf-5d4f9cdfa422"
+               },
+               {
+                "layoutId": "seat-category-type-almost-full",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "ALMOST FULL",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "CLASSIC",
+                 "uuid": "87d18e4c-9bde-4d67-beb4-447af1e75600"
+                },
+                "uuid": "b80eefae-5c11-4d86-ba7f-156aeb31789b"
+               },
+               {
+                "layoutId": "seat-category-type-available",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "AVAILABLE",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "LOUNGES",
+                 "uuid": "9f2c8d77-9ab1-467a-8d1f-c084eb7a64ab"
+                },
+                "uuid": "e4119ef7-1289-41c0-988e-057b093c3d49"
+               }
+              ],
+              "uuid": "acaf6de1-5bc5-4bd0-8602-85b993b98642"
+             },
+             "uuid": "96ab92ad-5c76-4268-aeb4-18f4f9a1eb73"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "8a207a95-dcbe-4d39-8aca-39f100aabd77"
+            },
+            "uuid": "b48965f8-4129-44f9-99c1-294070a841b8"
+           },
+           "uuid": "7eb34fec-2acc-4f9e-a93d-68b052d866f3"
+          },
+          {
+           "title": "08:00 PM",
+           "screenAttr": "Infinity Vision Dolby Atmos",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "ACPL",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "Infinity Vision Dolby Atmos",
+             "show_session_id": "6334",
+             "show_time": "20:00",
+             "type": "actual_icon",
+             "uuid": "00aea86d-9e74-4482-91d8-5f0243033e58"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": false,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "49036b7c-121c-431f-aac8-4b189d67c99a"
+             },
+             "uuid": "21e8698c-3d70-4524-a5d9-20ece1e763b8"
+            },
+            "uuid": "3b9a1b65-9eb7-4617-8195-9327a989e9c5"
+           },
+           "additionalData": {
+            "sessionId": "6334",
+            "availStatus": "1",
+            "cutOffDateTime": "202612172000",
+            "cutOffDateTimeEpoch": "1797517800",
+            "showDateCode": "20261217",
+            "showDateTime": "202612172000",
+            "showTimeCode": "2000",
+            "showTime": "08:00 PM",
+            "attributes": "Infinity Vision Dolby Atmos",
+            "uuid": "2f28b844-8b88-4518-8012-67fc07bd95f4"
+           },
+           "filters": [
+            "pf3",
+            "pf4",
+            "tf4"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | Infinity Vision Dolby Atmos",
+                 "uuid": "5f622a03-c342-4d1f-a902-88184451d0df"
+                },
+                "uuid": "2b1f683b-1fab-4509-aee0-1457f66ec70a"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "66a2ad01-170d-4511-9f08-ebb12d0e94ec"
+                },
+                "uuid": "21d2cde5-60c5-4317-b48e-826edf9cd6c8"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 350.00",
+                 "seatType": "GOLD",
+                 "uuid": "06a5d562-1f00-487d-a2f9-b9229c9d6194"
+                },
+                "uuid": "8846814d-2e41-4e90-b52d-e6f962f8be3c"
+               },
+               {
+                "layoutId": "seat-category-type-almost-full",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "ALMOST FULL",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "CLASSIC",
+                 "uuid": "7178537e-0afd-4dbf-8378-485ef9954079"
+                },
+                "uuid": "836c4909-96ea-4eff-89e5-781772dce8ee"
+               },
+               {
+                "layoutId": "seat-category-type-filling-fast",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "FILLING FAST",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "LOUNGES",
+                 "uuid": "db9d76e9-8399-4a94-b8ff-914b2f7926d7"
+                },
+                "uuid": "05f91a88-8099-4221-b9c3-cfc355b14df6"
+               }
+              ],
+              "uuid": "0dbe2def-52b9-4416-bf38-0773d3b6a845"
+             },
+             "uuid": "4f97b7c7-de2c-4cd1-a49b-15e251e8ebcd"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "583b8956-04b8-429b-8dab-61f2ef428de3"
+            },
+            "uuid": "fbea8391-fa59-4b24-9d30-e0f9dd3258d0"
+           },
+           "uuid": "56ca9c9c-e8ad-4e9a-a15a-e6df1dbafcd5"
+          },
+          {
+           "title": "11:05 PM",
+           "screenAttr": "Infinity Vision Dolby Atmos",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "ACPL",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "Infinity Vision Dolby Atmos",
+             "label": "night_show",
+             "show_session_id": "6335",
+             "show_time": "23:05",
+             "type": "actual_icon",
+             "uuid": "c8c6653c-855d-4c72-aab1-d306dab43026"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": false,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "7de0791f-c8a4-4eef-8577-6a243b19c40b"
+             },
+             "uuid": "ef1cb9a9-ce10-43fd-901b-1ffb424e5e96"
+            },
+            "uuid": "c459281d-b1d9-4c88-9b4c-619f22b0c18e"
+           },
+           "additionalData": {
+            "sessionId": "6335",
+            "availStatus": "1",
+            "cutOffDateTime": "202612172305",
+            "cutOffDateTimeEpoch": "1797528900",
+            "showDateCode": "20261217",
+            "showDateTime": "202612172305",
+            "showTimeCode": "2305",
+            "showTime": "11:05 PM",
+            "attributes": "Infinity Vision Dolby Atmos",
+            "uuid": "2f38e8cf-3cc2-4c66-b096-e6244c79b476"
+           },
+           "filters": [
+            "pf3",
+            "pf4",
+            "tf4"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | Infinity Vision Dolby Atmos",
+                 "uuid": "e92f2282-a92f-40f4-af80-5edf7ffe57ea"
+                },
+                "uuid": "975f8aec-3793-406c-b424-06e661878923"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "1ebc4186-ee61-4aaa-a058-492a4901277d"
+                },
+                "uuid": "e124cdde-9fe1-4f2f-94e5-74fe0156d5e3"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 350.00",
+                 "seatType": "GOLD",
+                 "uuid": "df03ec60-ccc5-42ac-800b-c881d09cffe6"
+                },
+                "uuid": "84057516-0980-422c-b9e3-583f158de1ff"
+               },
+               {
+                "layoutId": "seat-category-type-almost-full",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "ALMOST FULL",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "CLASSIC",
+                 "uuid": "3e20c976-ade4-46a5-9476-a3a6b3e3f803"
+                },
+                "uuid": "46ebcfff-822d-45d9-b02f-b85dc3e4c980"
+               },
+               {
+                "layoutId": "seat-category-type-filling-fast",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "FILLING FAST",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "LOUNGES",
+                 "uuid": "a96579a0-3e3c-4c30-95a7-ae9d8dc6ec29"
+                },
+                "uuid": "ae39df99-9fca-417d-a039-f46fa31847fa"
+               }
+              ],
+              "uuid": "a18b1bf9-749e-43a5-b966-1d1c9bc0dd77"
+             },
+             "uuid": "5c64fd9f-5128-4643-a9d9-6d5b4eb2b8e8"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "bcc6fe55-94f8-4b6c-ac48-7467cc8a54d4"
+            },
+            "uuid": "0128c441-16c2-4e3c-9dc8-669e43d65547"
+           },
+           "overlayId": "lateNight",
+           "uuid": "5a47b0e8-9e46-41b4-8be6-fc964454e7d5"
+          }
+         ],
+         "filters": [
+          "pf4",
+          "tf1",
+          "tf2",
+          "tf3",
+          "tf4",
+          "pf3"
+         ],
+         "additionalData": {
+          "eventCode": "ET00439706",
+          "uuid": "5bd4e0f5-6ec4-4db2-8985-182784eadd6b"
+         },
+         "uuid": "4f7e787f-b39d-4cb5-b357-d401a834dc0d"
+        }
+       ],
+       "analytics": {
+        "display_position": "2",
+        "event_name": "showtime_card_viewed",
+        "event_type": "impression",
+        "is_favourite": "false",
+        "label": "morning_show, night_show",
+        "venue_code": "APNS",
+        "uuid": "808bfe1c-27ec-4919-9ae2-288614ee03c3"
+       },
+       "styleId": "venue-card-style",
+       "id": "APNS",
+       "uuid": "50ff9541-30e2-4981-a76d-0b9d62681ff0"
+      }
+     ],
+     "uuid": "48364ba9-3674-46b4-b524-23aa961facb4"
+    }
+   ],
+   "uuid": "cd015f38-3988-49d1-aaa7-d17fb04e7e8f"
+  },
+  {
+   "type": "info",
+   "id": "changeLocation",
+   "filters": [
+    "ALL"
+   ],
+   "data": [
+    {
+     "styleId": "widget-title",
+     "text": "Unable to find what you are looking for?",
+     "uuid": "a481d364-8324-4f39-a42b-f6201f4bfb54"
+    }
+   ],
+   "action": {
+    "label": "Change Location",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#DC354B",
+    "borderColor": "#DC354B",
+    "cta": {
+     "type": "changeLocation",
+     "analytics": {
+      "event_action": "change_location",
+      "event_name": "showtime_actions",
+      "event_type": "click",
+      "uuid": "052bfab9-55ea-45b8-a9bb-feb6ac9e1486"
+     },
+     "uuid": "d485658e-d85f-4bee-aa51-78108fee6b64"
+    },
+    "uuid": "4d587ac4-4880-4e3e-b71e-5ccfd9e6ae78"
+   },
+   "sortInfo": {
+    "distance": {
+     "value": 0,
+     "enabled": false,
+     "uuid": "e112cea3-d6df-40a4-9665-76172f973b04"
+    },
+    "popularityRank": {
+     "value": 5000000,
+     "enabled": true,
+     "uuid": "fbdb68e2-355f-42ca-b1d3-b858dbdc0d1e"
+    },
+    "uuid": "d9eeee44-dff0-4e4d-a4ae-fb5a286cb952"
+   },
+   "uuid": "7290b836-d22a-4261-9a60-cb9250482557"
+  }
+ ]
+}

@@ -1,0 +1,2736 @@
+{
+ "additionalData": {
+  "dateCode": "20261216",
+  "eventCode": "ET00491771",
+  "defaultSortId": "relevance",
+  "sortingEnabled": true,
+  "showPriceWithoutDecimal": true,
+  "isV5MultiEvent": true,
+  "uuid": "901c2d77-9d39-4a6d-a629-03f6031e558a"
+ },
+ "topStickyWidgets": [
+  {
+   "type": "horizontal-block-list",
+   "data": [
+    {
+     "type": "vertical-text-list",
+     "id": "20261216",
+     "styleId": "date-selected",
+     "data": [
+      {
+       "text": "WED",
+       "styleId": "weekday-title-selected",
+       "uuid": "5a463851-122e-4c1e-812e-252a81742533"
+      },
+      {
+       "text": "16",
+       "styleId": "date-title-selected",
+       "uuid": "f48d1535-b93a-4db6-92f2-954d8dd87a64"
+      },
+      {
+       "text": "DEC",
+       "styleId": "date-subtitle-selected",
+       "uuid": "4d8b1d40-5abf-429b-9a82-71213ba1ab67"
+      }
+     ],
+     "cta": {
+      "type": "dateSelector",
+      "analytics": {
+       "event_action": "date",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "2026-12-16",
+       "uuid": "82a69cc1-857c-470f-9a82-a03b331238f1"
+      },
+      "additionalData": {
+       "dateCode": "20261216",
+       "uuid": "a00257ef-2050-435b-97c5-bd62cb7eea86"
+      },
+      "uuid": "09f533ad-41c8-4995-9a6a-0afc3d8cdf00"
+     },
+     "uuid": "62fd60f6-f9ce-41b2-82e4-d82ab227b692"
+    },
+    {
+     "type": "vertical-text-list",
+     "id": "20261217",
+     "styleId": "date-default",
+     "data": [
+      {
+       "text": "THU",
+       "styleId": "weekday-title",
+       "uuid": "31634770-0da1-4af6-9706-7b1d042d6bc9"
+      },
+      {
+       "text": "17",
+       "styleId": "date-title",
+       "uuid": "8607bab6-e074-4b7d-b71b-c227dbd98db6"
+      },
+      {
+       "text": "DEC",
+       "styleId": "date-subtitle",
+       "uuid": "36105c69-fd1f-4302-b963-4ba8242be88c"
+      }
+     ],
+     "cta": {
+      "type": "dateSelector",
+      "analytics": {
+       "event_action": "date",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "2026-12-17",
+       "uuid": "cbe1b869-02d5-47bb-aaf9-a4615fb491d6"
+      },
+      "additionalData": {
+       "dateCode": "20261217",
+       "uuid": "824e86a6-4b60-4700-87cf-d7f612b16225"
+      },
+      "uuid": "0b3cb9be-7652-48bc-9b81-a3c5eeb68685"
+     },
+     "uuid": "c70fe257-681e-4270-9ef2-208798966547"
+    },
+    {
+     "type": "vertical-text-list",
+     "id": "20261218",
+     "styleId": "date-default",
+     "data": [
+      {
+       "text": "FRI",
+       "styleId": "weekday-title",
+       "uuid": "39060942-1d73-4d77-a1a2-9eed61baeb7a"
+      },
+      {
+       "text": "18",
+       "styleId": "date-title",
+       "uuid": "d0052773-7907-4017-8083-4776c000aee2"
+      },
+      {
+       "text": "DEC",
+       "styleId": "date-subtitle",
+       "uuid": "57d00874-3fb6-4ad2-be70-c0320d527052"
+      }
+     ],
+     "cta": {
+      "type": "dateSelector",
+      "analytics": {
+       "event_action": "date",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "2026-12-18",
+       "uuid": "99a2e2e5-c9a8-4599-a9f8-7e2179d3e048"
+      },
+      "additionalData": {
+       "dateCode": "20261218",
+       "uuid": "db5e3f00-dd3a-4811-9ab8-922c5c71579c"
+      },
+      "uuid": "4ea04491-ca0b-41ae-8e47-c79671c3a0b7"
+     },
+     "uuid": "4a4dfc5e-608f-47cc-9e14-1829792a2f34"
+    },
+    {
+     "type": "vertical-text-list",
+     "id": "20261219",
+     "styleId": "date-default",
+     "data": [
+      {
+       "text": "SAT",
+       "styleId": "weekday-title",
+       "uuid": "afa23f5c-cc0f-44e9-ae27-4f6fc5344177"
+      },
+      {
+       "text": "19",
+       "styleId": "date-title",
+       "uuid": "7ae6a0de-5016-41b9-9708-a92ab487534e"
+      },
+      {
+       "text": "DEC",
+       "styleId": "date-subtitle",
+       "uuid": "907b5e9e-a1cc-4b8e-a4d0-2784ce0e72fa"
+      }
+     ],
+     "cta": {
+      "type": "dateSelector",
+      "analytics": {
+       "event_action": "date",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "2026-12-19",
+       "uuid": "4996ced6-eb2c-41d9-a825-4b1f2c7235a8"
+      },
+      "additionalData": {
+       "dateCode": "20261219",
+       "uuid": "f56ad836-672f-4fda-ae3c-763065d36cf3"
+      },
+      "uuid": "5fe9eb85-e24c-4180-819a-fab0f8730b58"
+     },
+     "uuid": "c2a2b402-f183-4eeb-a2fd-8576da5ae033"
+    },
+    {
+     "type": "vertical-text-list",
+     "id": "20261220",
+     "styleId": "date-default",
+     "data": [
+      {
+       "text": "SUN",
+       "styleId": "weekday-title",
+       "uuid": "2d0e5340-4208-46f3-9ebc-e6f65206686d"
+      },
+      {
+       "text": "20",
+       "styleId": "date-title",
+       "uuid": "41dd97e6-c601-435d-b6cc-6579869001da"
+      },
+      {
+       "text": "DEC",
+       "styleId": "date-subtitle",
+       "uuid": "c4ef5ebc-4df1-4f9a-9393-a1f594346f0d"
+      }
+     ],
+     "cta": {
+      "type": "dateSelector",
+      "analytics": {
+       "event_action": "date",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "2026-12-20",
+       "uuid": "775a12fc-d84d-4fb9-a569-48357ebf93c8"
+      },
+      "additionalData": {
+       "dateCode": "20261220",
+       "uuid": "493bb659-a8a8-42aa-81c2-8f2bf7ee20dc"
+      },
+      "uuid": "5f178946-aaac-4637-857d-0d6d0831465d"
+     },
+     "uuid": "b42e7425-619b-446f-a48e-6d36227e8693"
+    },
+    {
+     "type": "vertical-text-list",
+     "id": "20261221",
+     "styleId": "date-disabled",
+     "data": [
+      {
+       "text": "MON",
+       "styleId": "weekday-title",
+       "uuid": "ccd81e03-e68c-4d2f-ac46-7a3f31bdd842"
+      },
+      {
+       "text": "21",
+       "styleId": "date-title-disabled",
+       "uuid": "517144c8-c035-4f5e-841c-a17b498c2b59"
+      },
+      {
+       "text": "DEC",
+       "styleId": "date-subtitle-disabled",
+       "uuid": "bb0bb1df-7f70-44fd-8ca4-b605b8a82c7c"
+      }
+     ],
+     "uuid": "1a5fa569-ea6c-4c25-b36c-c0f5e88bbf41"
+    },
+    {
+     "type": "vertical-text-list",
+     "id": "20261222",
+     "styleId": "date-disabled",
+     "data": [
+      {
+       "text": "TUE",
+       "styleId": "weekday-title",
+       "uuid": "4a7a9c35-832b-427c-8175-ff548b2df2c7"
+      },
+      {
+       "text": "22",
+       "styleId": "date-title-disabled",
+       "uuid": "dd00819a-8deb-47b7-ae09-d60d5466ce86"
+      },
+      {
+       "text": "DEC",
+       "styleId": "date-subtitle-disabled",
+       "uuid": "1dd4e5bf-d4b0-4e4a-ac37-828bc2d04420"
+      }
+     ],
+     "uuid": "ce61762b-1165-4b3a-94ba-7185c5ee4843"
+    }
+   ],
+   "uuid": "b5bb0de6-9ce5-44a6-abec-551184d5de01"
+  },
+  {
+   "type": "horizontal-text-list",
+   "data": [
+    {
+     "styleId": "format-style",
+     "leftText": {
+      "data": [
+       {
+        "components": [
+         {
+          "uuid": "0ad1994f-9efe-46ad-ab1a-03b7dd5b2b3a",
+          "type": "text",
+          "styleId": "format-left-title",
+          "text": "English  •  2D"
+         }
+        ],
+        "uuid": "87dc6211-306f-44ba-996f-4984dad22ef8"
+       }
+      ],
+      "uuid": "79e2ecf9-b106-484f-acc5-952f341754d6"
+     },
+     "rightText": {
+      "data": [
+       {
+        "components": [
+         {
+          "uuid": "acf72c1b-c2fb-4761-89f3-e7db04a9c0bb",
+          "type": "text",
+          "styleId": "format-change-title",
+          "text": "Change"
+         },
+         {
+          "uuid": "4f4ffed4-5b1d-4af6-bec4-57be660911d7",
+          "type": "image",
+          "styleId": "format-change-icon",
+          "imageUrl": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/common/right-chevron.png"
+         }
+        ],
+        "uuid": "67265146-0cf3-4c76-b6e2-3778ac581239"
+       }
+      ],
+      "uuid": "4e70a4a6-79ac-4cfa-a9ac-cf19bb18100f"
+     },
+     "uuid": "6f31ed36-22f6-4278-90ef-09c9f328ad50"
+    }
+   ],
+   "cta": {
+    "type": "bottomsheet",
+    "id": "format-selector",
+    "uuid": "a49af0ac-5aaa-4b60-9cd6-d4101e6acd4d"
+   },
+   "uuid": "5eeda330-3a5a-4a05-a9a6-e0bdc0729104"
+  },
+  {
+   "type": "horizontal-pill-list",
+   "id": "filter-list",
+   "stickyWidget": {
+    "type": "vertical-text-list",
+    "styleId": "sortby-pill",
+    "iconUrl": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/common/down-chevron.png",
+    "data": [
+     {
+      "text": "Sort by",
+      "styleId": "sticky-pill-sortby",
+      "uuid": "1b107c64-66b7-4a73-85ed-ccda023193f3"
+     }
+    ],
+    "cta": {
+     "type": "bottomsheet",
+     "id": "sortBy",
+     "analytics": {
+      "category": "sort",
+      "event_action": "quick_filter",
+      "event_name": "showtime_actions",
+      "event_type": "click",
+      "uuid": "1b1c2aea-9d5d-48bb-8b6a-06cd655e5073"
+     },
+     "uuid": "77b83a5c-f055-4be5-930a-0d5f630608e9"
+    },
+    "startIcon": {
+     "url": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/common/sortbyStarticon.png",
+     "uuid": "3406856d-9114-426f-a5cf-200f072981b2"
+    },
+    "uuid": "6c89279e-ffc7-4958-8144-7f5c33f59e55"
+   },
+   "data": [
+    {
+     "type": "chip",
+     "title": "Special Formats",
+     "imageUrl": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/common/down-chevron.png",
+     "cta": {
+      "type": "bottomsheet",
+      "id": "specialFormat",
+      "analytics": {
+       "category": "special_format",
+       "event_action": "quick_filter",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "chip_filters",
+       "uuid": "25a617be-5695-4fed-b942-d07d27756347"
+      },
+      "additionalData": {
+       "filterID": "specialFormat",
+       "filterLevel": "both",
+       "categoryId": "special_format",
+       "selectionRank": 1,
+       "showBadge": true,
+       "uuid": "67d78dc8-37e6-4cca-8f18-5e7bcf342313"
+      },
+      "uuid": "d9146378-4bcc-4459-a698-53c3d3e08d20"
+     },
+     "uuid": "d6fc1645-6de5-45d1-9f5f-ecc335d1f086"
+    },
+    {
+     "type": "chip",
+     "title": "₹0 - ₹300",
+     "cta": {
+      "type": "filter",
+      "analytics": {
+       "category": "price",
+       "event_action": "quick_filter",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "0-300",
+       "uuid": "584c535e-f6c0-449b-932e-fb6647ceb49d"
+      },
+      "additionalData": {
+       "filterID": "pf3",
+       "filterLevel": "both",
+       "categoryId": "price",
+       "uuid": "8ebdd791-f378-4e57-acb2-2d9b610f1a71"
+      },
+      "uuid": "3bf05800-b0f7-4129-91f4-60abae5cf597"
+     },
+     "uuid": "ecf14fe6-702f-4828-90bd-3c453d9a9218"
+    },
+    {
+     "type": "chip",
+     "title": "₹301 - ₹400",
+     "cta": {
+      "type": "filter",
+      "analytics": {
+       "category": "price",
+       "event_action": "quick_filter",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "301-400",
+       "uuid": "c9dbb91b-98fb-457f-ad07-bdee04c078f5"
+      },
+      "additionalData": {
+       "filterID": "pf4",
+       "filterLevel": "both",
+       "categoryId": "price",
+       "uuid": "05338a14-c27c-499d-be89-a53083af1d46"
+      },
+      "uuid": "d33140c8-085b-47dd-a1ae-4b3d24cd72a4"
+     },
+     "uuid": "ea26995f-cdaf-4ca3-a72b-968d799703ea"
+    },
+    {
+     "type": "chip",
+     "title": "₹401 - ₹500",
+     "cta": {
+      "type": "filter",
+      "analytics": {
+       "category": "price",
+       "event_action": "quick_filter",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "401-500",
+       "uuid": "f4bd6983-f38b-41e0-a823-795aed29a31f"
+      },
+      "additionalData": {
+       "filterID": "pf5",
+       "filterLevel": "both",
+       "categoryId": "price",
+       "uuid": "dbdb183a-6ae7-4eef-bcfe-f78f555ed06d"
+      },
+      "uuid": "4e2ad1d3-7d88-4ce1-ab5e-e31286c3e199"
+     },
+     "uuid": "cb074b7d-42fd-4943-bc8f-0f25084004d4"
+    },
+    {
+     "type": "chip",
+     "title": "₹501 - ₹800",
+     "cta": {
+      "type": "filter",
+      "analytics": {
+       "category": "price",
+       "event_action": "quick_filter",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "label": "501-800",
+       "uuid": "98c3b4db-aed4-4212-be87-6aae5862ff07"
+      },
+      "additionalData": {
+       "filterID": "pf8",
+       "filterLevel": "both",
+       "categoryId": "price",
+       "uuid": "f37f12f7-1531-4b73-acfd-581bdc23bd31"
+      },
+      "uuid": "b274d8b3-b0c0-4655-87c2-f0de30ead4e5"
+     },
+     "uuid": "32f146ec-b4b8-48d5-9bdc-bbb0076da84f"
+    },
+    {
+     "type": "chip",
+     "title": "Clear filters",
+     "styleId": "pill-highlighted",
+     "cta": {
+      "type": "clearFilter",
+      "analytics": {
+       "category": "reset",
+       "event_action": "quick_filter",
+       "event_name": "showtime_actions",
+       "event_type": "click",
+       "uuid": "9dfd3368-555a-4618-8e4c-014540f94bc2"
+      },
+      "uuid": "dad02eb3-1dd1-4843-b941-ae0d9ad9fdaf"
+     },
+     "uuid": "18041032-e01b-48a7-a847-64359af40e1e"
+    }
+   ],
+   "uuid": "83738167-dabb-4bb8-a950-99a74450bb94"
+  }
+ ],
+ "bottomSheetData": {
+  "format-selector": {
+   "widgets": [
+    {
+     "type": "vertical-text-list",
+     "data": [
+      {
+       "text": "Dune: Part Three",
+       "styleId": "bottomsheet-subtitle",
+       "uuid": "897767d7-2853-459f-8485-6bccd85c30ca"
+      },
+      {
+       "text": "Select language and format",
+       "styleId": "bottomsheet-title",
+       "uuid": "01f559e4-44e5-4332-9ec3-969665d04ca2"
+      }
+     ],
+     "uuid": "03b84e92-d7d8-4fd1-b796-0e0c5804c159"
+    },
+    {
+     "type": "chip-list",
+     "text": "English",
+     "data": [
+      {
+       "type": "chip",
+       "title": "2D",
+       "cta": {
+        "type": "formatSelector",
+        "analytics": {
+         "event_code": "ET00491771",
+         "event_name": "language_format_selected",
+         "event_type": "click",
+         "format": "2D",
+         "screen_name": "movie_showtimes",
+         "uuid": "f01e7f48-ee17-466b-9fee-933fb0069d44"
+        },
+        "additionalData": {
+         "eventCode": "ET00491771",
+         "eventUrl": "dune-part-three",
+         "isDisabled": true,
+         "language": "English",
+         "refEventCode": "ET00491771",
+         "uuid": "486b8527-f353-49d3-be70-cf073d8b4985"
+        },
+        "uuid": "f5da4fe3-c6ac-48dd-8ce8-077dcbb207eb"
+       },
+       "uuid": "060a1709-d604-4001-bd32-9b4ce8b4e781"
+      },
+      {
+       "type": "chip",
+       "title": "4DX",
+       "cta": {
+        "type": "formatSelector",
+        "analytics": {
+         "event_code": "ET00526391",
+         "event_name": "language_format_selected",
+         "event_type": "click",
+         "format": "4DX",
+         "screen_name": "movie_showtimes",
+         "uuid": "cd176737-658a-470c-af9e-f63159e664d5"
+        },
+        "additionalData": {
+         "eventCode": "ET00526391",
+         "eventUrl": "dune-part-three-4dx",
+         "language": "English",
+         "refEventCode": "ET00526391",
+         "uuid": "edc4e71c-68ec-4352-98c9-6049b384d1a1"
+        },
+        "uuid": "4f2b48d3-7fe5-49f9-8a35-871511c2a065"
+       },
+       "uuid": "6781ee46-882a-46f8-920c-b5bfa7900fca"
+      },
+      {
+       "type": "chip",
+       "title": "EPIQ",
+       "cta": {
+        "type": "formatSelector",
+        "analytics": {
+         "event_code": "ET00526402",
+         "event_name": "language_format_selected",
+         "event_type": "click",
+         "format": "EPIQ",
+         "screen_name": "movie_showtimes",
+         "uuid": "e0ec57ef-d6b8-49fe-ba63-097209b0a64f"
+        },
+        "additionalData": {
+         "eventCode": "ET00526402",
+         "eventUrl": "dune-part-three-epiq",
+         "language": "English",
+         "refEventCode": "ET00526402",
+         "uuid": "d35804f0-d5b5-4b46-9903-0b676382facd"
+        },
+        "uuid": "d36162bb-2d1e-49a1-921f-b9104ee6149e"
+       },
+       "uuid": "96bd8fb9-db4f-4cd7-9a40-13bfc614c322"
+      },
+      {
+       "type": "chip",
+       "title": "HDR By Barco",
+       "cta": {
+        "type": "formatSelector",
+        "analytics": {
+         "event_code": "ET00526390",
+         "event_name": "language_format_selected",
+         "event_type": "click",
+         "format": "HDR By Barco",
+         "screen_name": "movie_showtimes",
+         "uuid": "9a36c43a-3e24-4280-96cd-1365f6845cfa"
+        },
+        "additionalData": {
+         "eventCode": "ET00526390",
+         "eventUrl": "dune-part-three-hdr-by-barco",
+         "language": "English",
+         "refEventCode": "ET00526390",
+         "uuid": "fbecc3d4-232f-43e9-9eb0-dec809565f0e"
+        },
+        "uuid": "68d8be43-4867-4261-ae29-622c845b64d2"
+       },
+       "uuid": "4f48b57b-4276-4a53-b5f4-28887f4add1b"
+      },
+      {
+       "type": "chip",
+       "title": "Select all",
+       "cta": {
+        "type": "formatSelector",
+        "analytics": {
+         "event_name": "language_format_selected",
+         "event_type": "click",
+         "format": "all_formats",
+         "language": "English",
+         "screen_name": "movie_showtimes",
+         "uuid": "fa3476c2-0a35-482c-900e-4aee3e93f9a0"
+        },
+        "additionalData": {
+         "eventCode": "*",
+         "language": "English",
+         "refEventCode": "ET00491771",
+         "uuid": "df523871-40bd-4733-ad17-a2806847de49"
+        },
+        "uuid": "17578c2f-dd66-45a4-9850-5ac23e5e0eda"
+       },
+       "uuid": "3759003b-d782-411b-ba19-c102051576b6"
+      }
+     ],
+     "uuid": "69002c50-c428-415a-baab-d9c22da30dd4"
+    }
+   ],
+   "analytics": {
+    "event_name": "language_format_viewed",
+    "event_type": "screen_view",
+    "uuid": "ab71763f-91b8-4686-bc8e-3a5bbfbab4ee"
+   },
+   "uuid": "1cff3003-f90b-4563-a74c-4cd93966778e"
+  }
+ },
+ "showtimeWidgets": [
+  {
+   "type": "adtech",
+   "data": [
+    {
+     "id": "AD_MOVIE_SHOWTIMES_CARD",
+     "customFilters": {
+      "eventCode": "ET00491771",
+      "showDate": "20261216",
+      "genre": [
+       "Action",
+       "Adventure",
+       "Drama",
+       "Sci-Fi"
+      ],
+      "movieType": "",
+      "uuid": "44a0f248-3157-4d56-86c3-6462675e584e"
+     },
+     "aspectRatio": 5,
+     "uuid": "ae01a286-1948-42e0-84e9-f2e8c5432261"
+    }
+   ],
+   "filters": [
+    "ALL"
+   ],
+   "sortInfo": {
+    "distance": {
+     "value": 0,
+     "enabled": false,
+     "uuid": "647635a9-691c-4326-9275-e81536efb070"
+    },
+    "popularityRank": {
+     "value": 0,
+     "enabled": false,
+     "uuid": "f6c06327-eea6-4e9d-a367-07467fc4225a"
+    },
+    "uuid": "282d2728-4193-4b71-af3a-eef270724b5f"
+   },
+   "uuid": "7059cc8c-758d-4583-8dac-042c403e2b20"
+  },
+  {
+   "type": "groupList",
+   "id": "List_1",
+   "data": [
+    {
+     "type": "venueGroup",
+     "id": "Venue_GROUP_1",
+     "data": [
+      {
+       "type": "venue-card",
+       "additionalData": {
+        "venueCode": "PRHN",
+        "seatLegendIds": [
+         "1",
+         "88",
+         "2"
+        ],
+        "favouriteActionState": "unfavourite",
+        "venueName": "Prasads Multiplex: Hyderabad",
+        "isFnBAvailable": true,
+        "isMTicketAvailable": true,
+        "uuid": "ced90e30-23b6-48af-bd9a-1c77e85624b8"
+       },
+       "filters": [
+        "pf3",
+        "tf3",
+        "tf4"
+       ],
+       "sortInfo": {
+        "distance": {
+         "value": 4900000,
+         "enabled": true,
+         "uuid": "0d3063cc-028b-4b07-bb27-622faa42a0f3"
+        },
+        "popularityRank": {
+         "value": 1,
+         "enabled": true,
+         "uuid": "12764a15-215c-4751-9db5-f9cde633eb29"
+        },
+        "uuid": "e3779317-2e6e-415f-bfbc-94f579a71969"
+       },
+       "header": {
+        "data": {
+         "styleId": "header-container-style",
+         "components": [
+          {
+           "type": "image",
+           "data": {
+            "url": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/cinema-icon/prasads.png",
+            "styleId": "cinema-icon",
+            "cta": {
+             "type": "redirection",
+             "id": "venueLink",
+             "analytics": {
+              "event_action": "venue_info",
+              "event_name": "showtime_actions",
+              "event_type": "click",
+              "uuid": "4bdbecf0-8213-4e63-929e-00a0b792c7fd"
+             },
+             "additionalData": {
+              "venueCode": "PRHN",
+              "venueName": "Prasads Multiplex: Hyderabad",
+              "redirectionUrl": "https://in.bookmyshow.com/cinemas/hyderabad/prasads-multiplex-hyderabad/buytickets/PRHN/20261216",
+              "uuid": "19136246-c153-4d66-8a20-9ad85f4bcf7c"
+             },
+             "uuid": "b5b06ad1-3c0e-47e2-9a27-6da470dbc5d0"
+            },
+            "elementType": "a",
+            "elementAttributes": {
+             "alt": "Prasads Multiplex: Hyderabad",
+             "href": "https://in.bookmyshow.com/cinemas/hyderabad/prasads-multiplex-hyderabad/buytickets/PRHN/20261216",
+             "uuid": "f00eb8c8-307a-4d4f-9469-064456c07253"
+            },
+            "uuid": "c37951bc-4d97-46a0-9776-0e909e6729a4"
+           },
+           "uuid": "df5fcb0e-3d4d-49e1-9903-542434bbd0da"
+          },
+          {
+           "styleId": "header-title-container",
+           "type": "text",
+           "data": {
+            "data": [
+             {
+              "components": [
+               {
+                "text": "Prasads Multiplex: Hyderabad",
+                "styleId": "header-subtitle",
+                "type": "text",
+                "uuid": "e636b7dd-808c-4ff9-9c05-b4e01d44d208"
+               },
+               {
+                "styleId": "cinema-info-image-v2",
+                "imageUrl": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/common/infoV2.png",
+                "type": "image",
+                "uuid": "52650b99-ad25-42d0-9717-99e6a13e1baa"
+               }
+              ],
+              "cta": {
+               "type": "bottomsheet",
+               "id": "venueInfo",
+               "analytics": {
+                "event_action": "venue_info",
+                "event_name": "showtime_actions",
+                "event_type": "click",
+                "uuid": "4f155866-ce3d-43a3-a60f-0f70d7e31245"
+               },
+               "additionalData": {
+                "venueCode": "PRHN",
+                "venueName": "Prasads Multiplex: Hyderabad",
+                "uuid": "967a5dba-a5a8-43d7-8a7a-652584f9d125"
+               },
+               "uuid": "5ea7b420-f7b2-4c2d-816d-858612512fab"
+              },
+              "uuid": "7ffe5828-d1ca-44ea-95fc-80c24313ffa3"
+             }
+            ],
+            "uuid": "18297ec5-1527-4c89-9ab8-296484fd4d03"
+           },
+           "uuid": "57558e72-258e-4896-afb2-18bb722914a3"
+          },
+          {
+           "styleId": "favourite-icon",
+           "type": "action",
+           "data": {
+            "id": "actionStates",
+            "cta": {
+             "type": "venueFavourite",
+             "analytics": {
+              "event_name": "favourite_venue_selected",
+              "event_type": "click",
+              "venue_code": "PRHN",
+              "uuid": "aa46ff45-b558-4953-9476-575924053316"
+             },
+             "uuid": "2d02462f-61f2-44e0-8d7e-65e043b1ba19"
+            },
+            "uuid": "b908f7f6-21aa-4ace-a228-cc2e6ea2788a"
+           },
+           "uuid": "78761fae-a167-49b7-bd9c-df60c92197c8"
+          }
+         ],
+         "uuid": "2536508b-9e51-4078-a695-1bb897233237"
+        },
+        "uuid": "b29e5bd1-bba5-4cc3-81c9-5caafd51e601"
+       },
+       "infoList": [
+        {
+         "label": "Non-cancellable",
+         "textColor": "#666666",
+         "uuid": "753ef09a-560f-4daf-a3b5-3703d9a940d8"
+        }
+       ],
+       "showtimesSections": [
+        {
+         "showtimes": [
+          {
+           "title": "05:45 PM",
+           "screenAttr": "PCX Screen",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "PRSD",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "PCX Screen",
+             "show_session_id": "259279",
+             "show_time": "17:45",
+             "type": "actual_icon",
+             "uuid": "832a7a9c-e003-4c02-a1fc-e9f1555cb9ae"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": true,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "e046d27c-ff75-4b4c-8b7e-7bd5d321635d"
+             },
+             "uuid": "f789ac04-6cd0-478f-99c5-9f8d06762be1"
+            },
+            "uuid": "92f1e48c-79ff-40cc-887d-167dac701a41"
+           },
+           "additionalData": {
+            "sessionId": "259279",
+            "availStatus": "1",
+            "cutOffDateTime": "202612161755",
+            "cutOffDateTimeEpoch": "1797423900",
+            "showDateCode": "20261216",
+            "showDateTime": "202612161745",
+            "showTimeCode": "1745",
+            "showTime": "05:45 PM",
+            "attributes": "PCX Screen",
+            "uuid": "2eaa0086-f061-4bef-82a4-0a15e8192e5c"
+           },
+           "filters": [
+            "pf3",
+            "tf3"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | PCX Screen",
+                 "uuid": "0917b13a-f06f-42bc-b34f-32e968692729"
+                },
+                "uuid": "abe88a9a-56eb-43b6-bf39-35d79376f775"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "6db3cc21-6ede-46f1-aaf2-2c5d623fce7d"
+                },
+                "uuid": "5a818621-6462-43f1-a4bc-6f0dc5b2302c"
+               },
+               {
+                "layoutId": "seat-category-type-almost-full",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "ALMOST FULL",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "GOLD",
+                 "uuid": "46488e84-8b4d-454c-940a-03c353df1219"
+                },
+                "uuid": "e3f696b6-8337-4953-a13a-355b773724cc"
+               }
+              ],
+              "uuid": "2ed363c5-1817-447b-b60a-38098cfc8362"
+             },
+             "uuid": "279949bc-e5fa-4440-9316-79a0f6f66c2a"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "036250c6-4539-48c4-8237-ac2c969f4ad0"
+            },
+            "uuid": "4603a76d-83d8-4704-9abc-ff05ea3c091d"
+           },
+           "uuid": "86b9f7c1-f4b0-446e-ae46-d2c7644e6564"
+          },
+          {
+           "title": "08:50 PM",
+           "screenAttr": "PCX Screen",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "PRSD",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "PCX Screen",
+             "show_session_id": "259280",
+             "show_time": "20:50",
+             "type": "actual_icon",
+             "uuid": "da4d6b37-0b7b-4205-96a6-f2cb4cd049d3"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": true,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "da268eca-21d5-4d75-883a-42e2355fcb47"
+             },
+             "uuid": "e8906cbb-e882-4531-be66-e22148483429"
+            },
+            "uuid": "51529bd8-b5d3-4a20-8976-1ce0427fe8d1"
+           },
+           "additionalData": {
+            "sessionId": "259280",
+            "availStatus": "1",
+            "cutOffDateTime": "202612162100",
+            "cutOffDateTimeEpoch": "1797435000",
+            "showDateCode": "20261216",
+            "showDateTime": "202612162050",
+            "showTimeCode": "2050",
+            "showTime": "08:50 PM",
+            "attributes": "PCX Screen",
+            "uuid": "d6802d4d-6a38-4672-bb8e-e1b9b103268a"
+           },
+           "filters": [
+            "pf3",
+            "tf4"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | PCX Screen",
+                 "uuid": "1cbdbfb0-b5d5-4abb-87f2-b5a63c9b8a7b"
+                },
+                "uuid": "5404d6d8-587d-4e9a-9869-e5627d9c6dba"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "62dcbb0d-1c82-458f-af70-72dd97d7a41c"
+                },
+                "uuid": "b11c1322-6dcf-412a-b1c2-204035f21bbb"
+               },
+               {
+                "layoutId": "seat-category-type-almost-full",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "ALMOST FULL",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "GOLD",
+                 "uuid": "f00e69fa-8281-4900-83f3-fdbaca9ff651"
+                },
+                "uuid": "a8850d72-1a5c-4928-9617-73dfcf635562"
+               }
+              ],
+              "uuid": "afde0366-1721-41d4-b62b-08ecdaa828c5"
+             },
+             "uuid": "8f71ea5b-08d7-4d02-92bd-428f3efeffdd"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "eadb8eef-4454-44b5-8700-a986d9c42ed9"
+            },
+            "uuid": "5dc57b0e-ad47-4534-8a98-f55ea2cb2042"
+           },
+           "uuid": "6571eaa5-b821-462c-8565-0a7b7ea7c02f"
+          }
+         ],
+         "filters": [
+          "tf3",
+          "tf4",
+          "pf3"
+         ],
+         "additionalData": {
+          "eventCode": "ET00491771",
+          "uuid": "0c0566c0-38d3-40a4-9213-fbea723bbc29"
+         },
+         "uuid": "8aec02fd-f127-4793-b133-22d54542cca8"
+        }
+       ],
+       "analytics": {
+        "display_position": "1",
+        "event_name": "showtime_card_viewed",
+        "event_type": "impression",
+        "is_favourite": "false",
+        "venue_code": "PRHN",
+        "uuid": "a7c7f965-1652-4090-8b75-7654d37faf74"
+       },
+       "styleId": "venue-card-style",
+       "id": "PRHN",
+       "uuid": "374157ef-1ba4-45d7-a5a8-1f6dd895bd54"
+      },
+      {
+       "type": "venue-card",
+       "additionalData": {
+        "venueCode": "ACAS",
+        "seatLegendIds": [
+         "1",
+         "88",
+         "2"
+        ],
+        "favouriteActionState": "unfavourite",
+        "venueName": "AAA Cinemas: Ameerpet",
+        "isFnBAvailable": true,
+        "isMTicketAvailable": true,
+        "uuid": "1744671f-803c-4204-b105-c80d89a5dc56"
+       },
+       "filters": [
+        "pf3",
+        "tf4",
+        "offer"
+       ],
+       "sortInfo": {
+        "distance": {
+         "value": 4900000,
+         "enabled": true,
+         "uuid": "a3c0bfc7-f7b0-438d-8b90-bcbe0c90dd1a"
+        },
+        "popularityRank": {
+         "value": 2,
+         "enabled": true,
+         "uuid": "9b880479-ca9f-40bd-81ac-c56b55fde84c"
+        },
+        "uuid": "1bc67396-6059-47e3-92d6-8f578d29ecc2"
+       },
+       "header": {
+        "data": {
+         "styleId": "header-container-style",
+         "components": [
+          {
+           "type": "image",
+           "data": {
+            "url": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/cinema-icon/aaa.png",
+            "styleId": "cinema-icon",
+            "cta": {
+             "type": "redirection",
+             "id": "venueLink",
+             "analytics": {
+              "event_action": "venue_info",
+              "event_name": "showtime_actions",
+              "event_type": "click",
+              "uuid": "b66fa6be-c988-4517-91a2-bb69c43d3fa1"
+             },
+             "additionalData": {
+              "venueCode": "ACAS",
+              "venueName": "AAA Cinemas: Ameerpet",
+              "redirectionUrl": "https://in.bookmyshow.com/cinemas/hyderabad/aaa-cinemas-ameerpet/buytickets/ACAS/20261216",
+              "uuid": "933ffff0-3697-41e7-bdcf-15b874b7330c"
+             },
+             "uuid": "bb312eaf-0dce-473a-b947-771f8a6e1dd0"
+            },
+            "elementType": "a",
+            "elementAttributes": {
+             "alt": "AAA Cinemas: Ameerpet",
+             "href": "https://in.bookmyshow.com/cinemas/hyderabad/aaa-cinemas-ameerpet/buytickets/ACAS/20261216",
+             "uuid": "e59564d5-1d24-4c6e-b69e-56576ca4ad4a"
+            },
+            "uuid": "944a379a-a300-4695-8e83-1b07b612e099"
+           },
+           "uuid": "973972ae-4351-4786-8a3c-40d956d41431"
+          },
+          {
+           "styleId": "header-title-container",
+           "type": "text",
+           "data": {
+            "data": [
+             {
+              "components": [
+               {
+                "text": "AAA Cinemas: Ameerpet",
+                "styleId": "header-subtitle",
+                "type": "text",
+                "uuid": "70e43c63-c7b5-43fc-b41f-c9a71c181360"
+               },
+               {
+                "styleId": "cinema-info-image-v2",
+                "imageUrl": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/common/infoV2.png",
+                "type": "image",
+                "uuid": "3be6abbc-820c-49e1-9b74-3ca1a805f130"
+               }
+              ],
+              "cta": {
+               "type": "bottomsheet",
+               "id": "venueInfo",
+               "analytics": {
+                "event_action": "venue_info",
+                "event_name": "showtime_actions",
+                "event_type": "click",
+                "uuid": "b1d76c14-5f21-4bb5-9f96-568d7b34bebc"
+               },
+               "additionalData": {
+                "venueCode": "ACAS",
+                "venueName": "AAA Cinemas: Ameerpet",
+                "uuid": "4576c5d7-0db9-43e1-8466-9306bd918865"
+               },
+               "uuid": "3898d7e0-d4a9-4f32-b5e1-233dbf23792c"
+              },
+              "uuid": "730595d5-55b2-4778-9855-51819df29052"
+             }
+            ],
+            "uuid": "88836299-6afd-4294-9e1e-7caf8d2a6563"
+           },
+           "uuid": "f1d92001-d449-4c35-8b0c-177455714d46"
+          },
+          {
+           "styleId": "favourite-icon",
+           "type": "action",
+           "data": {
+            "id": "actionStates",
+            "cta": {
+             "type": "venueFavourite",
+             "analytics": {
+              "event_name": "favourite_venue_selected",
+              "event_type": "click",
+              "venue_code": "ACAS",
+              "uuid": "c59de648-c812-4841-87f7-4328cdedb7e0"
+             },
+             "uuid": "fed6a6f8-d129-4903-b71a-3e1785a95e8f"
+            },
+            "uuid": "b6abd298-0e1f-44ce-b7c8-71aac19599b9"
+           },
+           "uuid": "0436e09a-6bf0-4e35-98d6-399462136ab9"
+          }
+         ],
+         "uuid": "0a81099c-34b2-4514-8730-d6bad176d0c0"
+        },
+        "uuid": "72910edb-843d-4a3a-b4ea-e190a0ba60cf"
+       },
+       "infoList": [
+        {
+         "label": "Non-cancellable",
+         "textColor": "#666666",
+         "uuid": "c24edbf4-3f70-475c-aaae-74c10f270f2a"
+        }
+       ],
+       "moreInfoList": {
+        "backgroundColor": "#FFF2D0",
+        "data": [
+         {
+          "components": [
+           {
+            "type": "image",
+            "styleId": "info-image",
+            "imageUrl": "https://assets-in.bmscdn.com/offersimg/bo-images/1757910475997_example.png",
+            "uuid": "27ef742e-5ffa-4943-9943-c312af3726b0"
+           },
+           {
+            "type": "text",
+            "text": "Rs.50 Off for First-Time Users! Use Code: ACAS50",
+            "style": {
+             "font": "extra-tiny-medium",
+             "fontColor": "#404040",
+             "padding": "0,0,0,6",
+             "uuid": "24d0bbaa-118c-4ae6-9ffc-480714ea644a"
+            },
+            "uuid": "5782489a-e4cf-49ca-ac4c-18a0f6391cc9"
+           }
+          ],
+          "uuid": "7a3cb0c7-ade9-46cc-b3a8-6f7684d6f5e4"
+         }
+        ],
+        "uuid": "f55f6cc0-b9e4-46d7-8f74-32ae54793fb5"
+       },
+       "showtimesSections": [
+        {
+         "showtimes": [
+          {
+           "title": "07:25 PM",
+           "screenAttr": "LED SCREEN DOLBY ATMOS",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "ACAA",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "LED SCREEN DOLBY ATMOS",
+             "metadata": "{\"venue_info\":[\"fast_filling\"]}",
+             "show_session_id": "40404",
+             "show_time": "19:25",
+             "type": "actual_icon",
+             "uuid": "2bb6f94c-fc7a-40cc-9cdb-e5ec8b5e318a"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": true,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "c549ce6a-9838-479b-b117-c7dd676e363b"
+             },
+             "uuid": "2a40d483-58e9-40b1-9c71-5a99efa0bf71"
+            },
+            "uuid": "497fed14-2ae3-4a24-9659-b111b09bc54b"
+           },
+           "additionalData": {
+            "sessionId": "40404",
+            "availStatus": "2",
+            "cutOffDateTime": "202612162000",
+            "cutOffDateTimeEpoch": "1797431400",
+            "showDateCode": "20261216",
+            "showDateTime": "202612161925",
+            "showTimeCode": "1925",
+            "showTime": "07:25 PM",
+            "attributes": "LED SCREEN DOLBY ATMOS",
+            "uuid": "2892e3ed-4da8-4f10-bc85-16b6455c37ca"
+           },
+           "filters": [
+            "pf3",
+            "tf4"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | LED SCREEN DOLBY ATMOS",
+                 "uuid": "6f23774c-ce75-481e-ad0d-17c58681b6f9"
+                },
+                "uuid": "87995846-9888-424f-b0f9-d5a0c429378b"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "f9a59605-250a-4eb7-8469-2dd483c452f8"
+                },
+                "uuid": "1c5eea0e-0f04-4ed2-b46a-2a2b607e6906"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 300.00",
+                 "seatType": "SEMI RECLINERS",
+                 "uuid": "1a9cfae7-5da9-47ee-93bf-4466ac5e7a47"
+                },
+                "uuid": "baff751b-d3a9-48d7-9575-e3efc6dced50"
+               },
+               {
+                "layoutId": "seat-category-type-filling-fast",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "FILLING FAST",
+                 "seatCost": "₹ 250.00",
+                 "seatType": "GOLD",
+                 "uuid": "bd31b871-70a5-475f-a3e3-0e0e25058ebb"
+                },
+                "uuid": "25ba70e9-238a-46bc-8726-abb71b794009"
+               }
+              ],
+              "uuid": "9ebeb063-1ddc-487b-98b1-a8bfa69552c4"
+             },
+             "uuid": "baec891a-76af-49f5-9083-02083c35d8ed"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "bf744510-52c4-464c-97e4-59ab843db3da"
+            },
+            "uuid": "d4be3aa7-b644-4f80-a66f-a8a1e8e384ac"
+           },
+           "uuid": "c999cf2f-f18c-43c6-a963-1bb1ce0b90da"
+          },
+          {
+           "title": "10:30 PM",
+           "screenAttr": "LED SCREEN DOLBY ATMOS",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "ACAA",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "LED SCREEN DOLBY ATMOS",
+             "metadata": "{\"venue_info\":[\"fast_filling\"]}",
+             "show_session_id": "40405",
+             "show_time": "22:30",
+             "type": "actual_icon",
+             "uuid": "49d314b6-9006-4917-a94a-9a8a1c260498"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": true,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "e7a127aa-e95d-415f-bbe0-bb9d9904d99b"
+             },
+             "uuid": "1462f47a-48c5-4fef-ac3d-0865e05ef197"
+            },
+            "uuid": "b1553cd3-a988-414f-b32f-b1446230a21e"
+           },
+           "additionalData": {
+            "sessionId": "40405",
+            "availStatus": "2",
+            "cutOffDateTime": "202612162305",
+            "cutOffDateTimeEpoch": "1797442500",
+            "showDateCode": "20261216",
+            "showDateTime": "202612162230",
+            "showTimeCode": "2230",
+            "showTime": "10:30 PM",
+            "attributes": "LED SCREEN DOLBY ATMOS",
+            "uuid": "ab9b3233-0771-4a9d-b9b3-4dfb9e3f54a5"
+           },
+           "filters": [
+            "pf3",
+            "tf4"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | LED SCREEN DOLBY ATMOS",
+                 "uuid": "53c5e75d-d5b7-4740-ace8-b03a006b6975"
+                },
+                "uuid": "3cdb0757-c300-46e6-a822-b847fbb7bc81"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "13e04280-2eaa-45e7-8813-76aeae777e1c"
+                },
+                "uuid": "e4e0117f-b13e-4f79-907d-42cc557b6820"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 300.00",
+                 "seatType": "SEMI RECLINERS",
+                 "uuid": "68e05c5e-1869-42f6-bab2-50cf590a3513"
+                },
+                "uuid": "0b9113bf-4c95-453a-b62d-2f469d2dd48e"
+               },
+               {
+                "layoutId": "seat-category-type-filling-fast",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "FILLING FAST",
+                 "seatCost": "₹ 250.00",
+                 "seatType": "GOLD",
+                 "uuid": "2a5a0461-17b9-44df-9de4-b2c7b2e3b835"
+                },
+                "uuid": "800520c4-2ceb-4370-8eac-018d7237e64b"
+               }
+              ],
+              "uuid": "7a34d66a-e861-43b4-ab47-b89d82c55f63"
+             },
+             "uuid": "090188a0-eccc-41d0-bc67-c5765322f491"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "b4bfaea9-a80f-4c8b-bc60-ee631af42512"
+            },
+            "uuid": "4c49d759-3f16-44b7-8988-166cbe68e1d4"
+           },
+           "uuid": "460366b4-4bc7-483a-bf41-7f9fa29bfdf5"
+          }
+         ],
+         "filters": [
+          "pf3",
+          "tf4"
+         ],
+         "additionalData": {
+          "eventCode": "ET00491771",
+          "uuid": "e7fed947-2d00-4af6-a0c0-e5040018c03f"
+         },
+         "uuid": "8fbc4c27-4f1a-406b-84e7-bd990227e1b4"
+        }
+       ],
+       "analytics": {
+        "display_position": "2",
+        "event_name": "showtime_card_viewed",
+        "event_type": "impression",
+        "is_favourite": "false",
+        "metadata": "{venue_info:[partner_offer]}",
+        "venue_code": "ACAS",
+        "uuid": "78c0634a-82dc-48da-a255-06fd089ed047"
+       },
+       "styleId": "venue-card-style",
+       "id": "ACAS",
+       "uuid": "14ae1a45-cd74-4ea9-94d7-6590a844704c"
+      },
+      {
+       "type": "venue-card",
+       "additionalData": {
+        "venueCode": "CTNR",
+        "seatLegendIds": [
+         "4",
+         "1",
+         "88",
+         "2"
+        ],
+        "seatSelectorFooterText": "default",
+        "bestSeatsDialogBox": "default",
+        "enableBestSeatCelebration": true,
+        "favouriteActionState": "unfavourite",
+        "venueName": "Cinepolis: TNR North City, Suchitra, Hyderabad",
+        "isMTicketAvailable": true,
+        "uuid": "13498a35-f72f-44c2-acdc-29302a4356af"
+       },
+       "filters": [
+        "pf3",
+        "tf4"
+       ],
+       "sortInfo": {
+        "distance": {
+         "value": 4900000,
+         "enabled": true,
+         "uuid": "67246769-a94f-467c-8927-c692842d51a7"
+        },
+        "popularityRank": {
+         "value": 3,
+         "enabled": true,
+         "uuid": "c56aa45e-381a-4af6-84e2-c24927bfe234"
+        },
+        "uuid": "6c8bd35f-287f-461d-a3ac-b9a4850b3d0f"
+       },
+       "header": {
+        "data": {
+         "styleId": "header-container-style",
+         "components": [
+          {
+           "type": "image",
+           "data": {
+            "url": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/cinema-icon/cinepolis_1.png",
+            "styleId": "cinema-icon",
+            "cta": {
+             "type": "redirection",
+             "id": "venueLink",
+             "analytics": {
+              "event_action": "venue_info",
+              "event_name": "showtime_actions",
+              "event_type": "click",
+              "uuid": "9c980ce8-8f1b-4824-a65f-0dc97ce50de1"
+             },
+             "additionalData": {
+              "venueCode": "CTNR",
+              "venueName": "Cinepolis: TNR North City, Suchitra, Hyderabad",
+              "redirectionUrl": "https://in.bookmyshow.com/cinemas/hyderabad/cinepolis-tnr-north-city-suchitra-hyderabad/buytickets/CTNR/20261216",
+              "uuid": "5f5752f3-69dd-42a9-a97e-f4c83067a1ce"
+             },
+             "uuid": "30edf156-85d2-48d0-a259-003494fdf40e"
+            },
+            "elementType": "a",
+            "elementAttributes": {
+             "alt": "Cinepolis: TNR North City, Suchitra, Hyderabad",
+             "href": "https://in.bookmyshow.com/cinemas/hyderabad/cinepolis-tnr-north-city-suchitra-hyderabad/buytickets/CTNR/20261216",
+             "uuid": "69e2ed17-e74d-4d9c-9084-4fd3007dcff5"
+            },
+            "uuid": "999f82c6-c0e6-4584-9fb1-9d9da3d7dfcd"
+           },
+           "uuid": "af6b33c6-8e6b-4338-ae74-08f262bbd942"
+          },
+          {
+           "styleId": "header-title-container",
+           "type": "text",
+           "data": {
+            "data": [
+             {
+              "components": [
+               {
+                "text": "Cinepolis: TNR North City, Suchitra, Hyderabad",
+                "styleId": "header-subtitle",
+                "type": "text",
+                "uuid": "b1b7377a-fb50-46dc-926e-3c672251f004"
+               },
+               {
+                "styleId": "cinema-info-image-v2",
+                "imageUrl": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/common/infoV2.png",
+                "type": "image",
+                "uuid": "360b866a-0b48-4ff0-9bea-e9026743f52f"
+               }
+              ],
+              "cta": {
+               "type": "bottomsheet",
+               "id": "venueInfo",
+               "analytics": {
+                "event_action": "venue_info",
+                "event_name": "showtime_actions",
+                "event_type": "click",
+                "uuid": "9f4c120d-d6f2-4a9a-8e2b-f303bffc1db1"
+               },
+               "additionalData": {
+                "venueCode": "CTNR",
+                "venueName": "Cinepolis: TNR North City, Suchitra, Hyderabad",
+                "uuid": "e4875554-b5ae-42c2-851c-bd513c6a5987"
+               },
+               "uuid": "f7f4df7e-a388-41f7-b47c-316886cebb8e"
+              },
+              "uuid": "ccfcb1e3-2efe-40bc-8788-7aeea110e42d"
+             }
+            ],
+            "uuid": "2dd216da-78fc-4ff9-bc24-6a3d2a3bebbe"
+           },
+           "uuid": "2363c484-e2fd-48a7-83be-1751c942cdff"
+          },
+          {
+           "styleId": "favourite-icon",
+           "type": "action",
+           "data": {
+            "id": "actionStates",
+            "cta": {
+             "type": "venueFavourite",
+             "analytics": {
+              "event_name": "favourite_venue_selected",
+              "event_type": "click",
+              "venue_code": "CTNR",
+              "uuid": "c6f7f6ee-5f12-4976-a5cc-b2c6ebc90c1a"
+             },
+             "uuid": "e97a3c5e-8df4-4cd2-baaa-b68054cd9cd8"
+            },
+            "uuid": "eab31d2d-3ea1-46f7-a612-c5def97e0d2a"
+           },
+           "uuid": "7f5a6e9a-344d-4a6b-a096-cc33a7360dfc"
+          }
+         ],
+         "uuid": "8150238e-264e-4b1f-84f7-2f5e443d2fb5"
+        },
+        "uuid": "a9c215ff-b770-4fe6-9827-9e971060285c"
+       },
+       "infoList": [
+        {
+         "label": "Non-cancellable",
+         "textColor": "#666666",
+         "uuid": "fbb02072-a7ae-4ca0-a70a-3866e51b8f12"
+        }
+       ],
+       "showtimesSections": [
+        {
+         "showtimes": [
+          {
+           "title": "07:30 PM",
+           "screenAttr": "MACRO XE",
+           "styleId": "green-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "CNPL",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "MACRO XE",
+             "show_session_id": "17901",
+             "show_time": "19:30",
+             "type": "actual_icon",
+             "uuid": "00aaf70e-55c9-42e0-b482-3703f0e44f68"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": true,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "0f186a21-38e7-4939-b91d-1c156364bebb"
+             },
+             "uuid": "3ab6b123-468d-4e10-acaf-4bbe3c4e4c3f"
+            },
+            "uuid": "d21ce398-58e4-4105-a279-67af88f6f518"
+           },
+           "additionalData": {
+            "sessionId": "17901",
+            "availStatus": "3",
+            "cutOffDateTime": "202612161945",
+            "cutOffDateTimeEpoch": "1797430500",
+            "showDateCode": "20261216",
+            "showDateTime": "202612161930",
+            "showTimeCode": "1930",
+            "showTime": "07:30 PM",
+            "attributes": "MACRO XE",
+            "uuid": "d3f3e6dc-0161-449c-92ae-2f590c8c6f89"
+           },
+           "filters": [
+            "pf3",
+            "tf4"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | MACRO XE",
+                 "uuid": "eca48fee-3f19-4a63-883a-04c2092fab07"
+                },
+                "uuid": "3c9aec51-f43a-47b9-863b-15097df1e825"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "a98142cd-f442-48ca-a572-fedcaa3d5472"
+                },
+                "uuid": "ef949404-bebc-408d-91dc-5d3feee7b63e"
+               },
+               {
+                "layoutId": "seat-category-type-available",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "AVAILABLE",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "EXECUTIVE",
+                 "uuid": "cb20b4c8-a114-4fba-bb64-a9d473388806"
+                },
+                "uuid": "7f3be0e5-10e9-4d5a-a481-b7ac79f37be0"
+               }
+              ],
+              "uuid": "6b6ad7d9-a790-4d70-a5f7-5d92bfb7ca18"
+             },
+             "uuid": "220066a5-96e3-488f-8244-95caedc910c7"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "6b093b4b-31bc-4f65-b8e9-848a2c05d163"
+            },
+            "uuid": "0a07f9bd-b993-4b18-8e77-c6b2679c84c1"
+           },
+           "uuid": "8a756b8e-afc4-4b39-9785-d0e4c876d870"
+          },
+          {
+           "title": "10:55 PM",
+           "screenAttr": "MACRO XE",
+           "styleId": "green-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "CNPL",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "MACRO XE",
+             "show_session_id": "17902",
+             "show_time": "22:55",
+             "type": "actual_icon",
+             "uuid": "72c3e5ab-f7a4-4ae9-91ad-263d73f18a4f"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": true,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "567bfaf0-cf58-4766-a041-2c7fb9a15fb4"
+             },
+             "uuid": "ef53279c-75f6-4616-ab5e-5650e342c355"
+            },
+            "uuid": "d3fb0eac-3d25-4cca-bd29-3aa1e570dd5b"
+           },
+           "additionalData": {
+            "sessionId": "17902",
+            "availStatus": "3",
+            "cutOffDateTime": "202612162310",
+            "cutOffDateTimeEpoch": "1797442800",
+            "showDateCode": "20261216",
+            "showDateTime": "202612162255",
+            "showTimeCode": "2255",
+            "showTime": "10:55 PM",
+            "attributes": "MACRO XE",
+            "uuid": "cd1a52ad-e102-46a3-9ba9-610c10612494"
+           },
+           "filters": [
+            "pf3",
+            "tf4"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | MACRO XE",
+                 "uuid": "857dc757-2746-42d6-890b-9a95918208a1"
+                },
+                "uuid": "73c49dfc-733c-4adf-bb06-ec9110042aae"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "b8faf7e7-d40a-477b-8e07-5ebb49d46171"
+                },
+                "uuid": "88a2eead-1959-4c6c-b326-cd690c8da51f"
+               },
+               {
+                "layoutId": "seat-category-type-available",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "AVAILABLE",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "EXECUTIVE",
+                 "uuid": "c0f7025f-24d1-44d2-809b-bc2701b37ac9"
+                },
+                "uuid": "f107f746-849e-41b6-b007-f8032ed7b6ce"
+               }
+              ],
+              "uuid": "65d7dbeb-4f56-4b58-af8f-a990cce70dde"
+             },
+             "uuid": "a705c68a-7f9d-4b4d-84d5-3eb4fbb2e3d0"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "bf271d85-590b-471d-9b0e-010f08794c1a"
+            },
+            "uuid": "1f4e9c79-b3fb-4574-a5f6-da35cfff7d77"
+           },
+           "uuid": "732036d8-f2a5-4c10-abf7-4411afc1d67e"
+          }
+         ],
+         "filters": [
+          "pf3",
+          "tf4"
+         ],
+         "additionalData": {
+          "eventCode": "ET00491771",
+          "uuid": "7a969e33-9348-47f6-bf73-14a2e02fd568"
+         },
+         "uuid": "519fe10d-aa8a-4d57-93dd-e0de9b12dd87"
+        }
+       ],
+       "analytics": {
+        "display_position": "3",
+        "event_name": "showtime_card_viewed",
+        "event_type": "impression",
+        "is_favourite": "false",
+        "venue_code": "CTNR",
+        "uuid": "80a79a86-41ed-4c91-802f-6065c4dac868"
+       },
+       "styleId": "venue-card-style",
+       "id": "CTNR",
+       "uuid": "af5c9b7d-22b1-45ab-820e-16ed326b2f51"
+      },
+      {
+       "type": "venue-card",
+       "additionalData": {
+        "venueCode": "ILKS",
+        "seatLegendIds": [
+         "4",
+         "1",
+         "88",
+         "2"
+        ],
+        "seatSelectorFooterText": "default",
+        "bestSeatsDialogBox": "default",
+        "enableBestSeatCelebration": true,
+        "favouriteActionState": "unfavourite",
+        "venueName": "PVR Lakeshore PXL 4K Laser ATMOS DTS-X Y Junction",
+        "isFnBAvailable": true,
+        "isMTicketAvailable": true,
+        "uuid": "51ddf309-21e5-44d6-9bdc-9885fb0b6f36"
+       },
+       "filters": [
+        "pf3",
+        "pf4",
+        "ag-7",
+        "tf4"
+       ],
+       "sortInfo": {
+        "distance": {
+         "value": 4900000,
+         "enabled": true,
+         "uuid": "711bafc5-66c8-49e4-a173-b612ab00b4f1"
+        },
+        "popularityRank": {
+         "value": 4,
+         "enabled": true,
+         "uuid": "8d103af4-4a7b-4e7e-8307-47886c3431d7"
+        },
+        "uuid": "eb04cb78-74b2-4573-909d-226ca8ce13e8"
+       },
+       "header": {
+        "data": {
+         "styleId": "header-container-style",
+         "components": [
+          {
+           "type": "image",
+           "data": {
+            "url": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/cinema-icon/pvr.png",
+            "styleId": "cinema-icon",
+            "cta": {
+             "type": "redirection",
+             "id": "venueLink",
+             "analytics": {
+              "event_action": "venue_info",
+              "event_name": "showtime_actions",
+              "event_type": "click",
+              "uuid": "e65f6a30-c59a-43bf-a437-1be56b827162"
+             },
+             "additionalData": {
+              "venueCode": "ILKS",
+              "venueName": "PVR Lakeshore PXL 4K Laser ATMOS DTS-X Y Junction",
+              "redirectionUrl": "https://in.bookmyshow.com/cinemas/hyderabad/pvr-lakeshore-pxl-4k-laser-atmos-dts-x-y-junction/buytickets/ILKS/20261216",
+              "uuid": "e13ca37a-7d49-4867-95ae-db9cef34d065"
+             },
+             "uuid": "dca05224-61ad-4b43-951a-dccfa00f752d"
+            },
+            "elementType": "a",
+            "elementAttributes": {
+             "alt": "PVR Lakeshore PXL 4K Laser ATMOS DTS-X Y Junction",
+             "href": "https://in.bookmyshow.com/cinemas/hyderabad/pvr-lakeshore-pxl-4k-laser-atmos-dts-x-y-junction/buytickets/ILKS/20261216",
+             "uuid": "f92e4c6f-f7b5-48c4-8f58-6e24110da77c"
+            },
+            "uuid": "746e2ad5-264a-4af0-bf0a-d98ceb81e588"
+           },
+           "uuid": "72f1e84c-37e8-4df6-b57b-5c53c72b59bf"
+          },
+          {
+           "styleId": "header-title-container",
+           "type": "text",
+           "data": {
+            "data": [
+             {
+              "components": [
+               {
+                "text": "PVR Lakeshore PXL 4K Laser ATMOS DTS-X Y Junction",
+                "styleId": "header-subtitle",
+                "type": "text",
+                "uuid": "876386b4-1f14-4fa1-a4ce-ff77d9509d84"
+               },
+               {
+                "styleId": "cinema-info-image-v2",
+                "imageUrl": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/common/infoV2.png",
+                "type": "image",
+                "uuid": "afe66a4a-ea1a-48d8-852a-f9b15a2ab76a"
+               }
+              ],
+              "cta": {
+               "type": "bottomsheet",
+               "id": "venueInfo",
+               "analytics": {
+                "event_action": "venue_info",
+                "event_name": "showtime_actions",
+                "event_type": "click",
+                "uuid": "9f24d136-9869-40b2-9cbd-0a0ddb792815"
+               },
+               "additionalData": {
+                "venueCode": "ILKS",
+                "venueName": "PVR Lakeshore PXL 4K Laser ATMOS DTS-X Y Junction",
+                "uuid": "1bf2c92c-5a7d-4f0e-88e7-8bb8dad28fc0"
+               },
+               "uuid": "c7b739cc-28d8-40c2-a848-52cddac4076a"
+              },
+              "uuid": "9e621c73-e964-4053-9af9-4e3364617cac"
+             }
+            ],
+            "uuid": "641796ee-e5e9-4213-b218-48e9a0a8463a"
+           },
+           "uuid": "5464136f-034d-4f20-81b9-7d80f23209d8"
+          },
+          {
+           "styleId": "favourite-icon",
+           "type": "action",
+           "data": {
+            "id": "actionStates",
+            "cta": {
+             "type": "venueFavourite",
+             "analytics": {
+              "event_name": "favourite_venue_selected",
+              "event_type": "click",
+              "venue_code": "ILKS",
+              "uuid": "8c92dfa0-5421-4b75-8980-8d5636a09d6c"
+             },
+             "uuid": "5fe29031-4502-4ef8-9407-eece51daf1a3"
+            },
+            "uuid": "5c6191bc-4934-4d93-93ee-4d47439d0f93"
+           },
+           "uuid": "ff91097f-f474-4702-803f-e9ab952e07f7"
+          }
+         ],
+         "uuid": "1d349a86-9173-4adf-a6f7-ab289aaa83ae"
+        },
+        "uuid": "5ac5ba7b-0381-4760-837c-22bf0d23c13b"
+       },
+       "infoList": [
+        {
+         "label": "Non-cancellable",
+         "textColor": "#666666",
+         "uuid": "2f0879f7-980b-4194-a5b5-5a017e8daa93"
+        }
+       ],
+       "showtimesSections": [
+        {
+         "showtimes": [
+          {
+           "title": "07:25 PM",
+           "screenAttr": "PXL",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "PVR",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "PXL",
+             "show_session_id": "14302",
+             "show_time": "19:25",
+             "type": "actual_icon",
+             "uuid": "4598cbb3-b969-4494-8d20-8bdb442f354b"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": true,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "666d7771-2b2f-4802-ab78-bcb8253409a9"
+             },
+             "uuid": "45b6645c-cb78-48d9-92d0-729e79f5402d"
+            },
+            "uuid": "db272d74-1329-4026-8e61-bbaaeac6d8bf"
+           },
+           "additionalData": {
+            "sessionId": "14302",
+            "availStatus": "1",
+            "cutOffDateTime": "202612162010",
+            "cutOffDateTimeEpoch": "1797432000",
+            "showDateCode": "20261216",
+            "showDateTime": "202612161925",
+            "showTimeCode": "1925",
+            "showTime": "07:25 PM",
+            "attributes": "PXL",
+            "uuid": "653841f5-1c97-4d97-a72c-be068b225f8a"
+           },
+           "filters": [
+            "pf3",
+            "pf4",
+            "ag-7",
+            "tf4"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | PXL",
+                 "uuid": "abefcfee-f573-4aa0-bfe1-8c1a3ea59744"
+                },
+                "uuid": "a237f007-ae1e-481a-8e1b-05e9dac0864f"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "418c8808-98d2-463e-93a3-1bdabdcfbeb6"
+                },
+                "uuid": "06652107-bb50-43ab-b5fa-fbbb53ce6943"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 354.00",
+                 "seatType": "LOUNGER ROWS",
+                 "uuid": "501ebd2d-9a05-4e17-ab90-5fcdc9c2ac2f"
+                },
+                "uuid": "2f29ee1c-5e04-4065-87b5-877894d7b087"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 354.00",
+                 "seatType": "RECLINER ROWS",
+                 "uuid": "a04ec4e6-156b-49c4-96b9-97a47d709901"
+                },
+                "uuid": "68c089bd-8590-4142-8d72-84e983816922"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "PRIME ROWS",
+                 "uuid": "f0a81604-0885-4536-8b06-7071b4dd1aff"
+                },
+                "uuid": "0661c08a-dcd4-44ad-aef7-7ebded858fce"
+               },
+               {
+                "layoutId": "seat-category-type-almost-full",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "ALMOST FULL",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "CLASSIC ROWS",
+                 "uuid": "08c04dd0-6b91-4d53-9386-6c8d97651f08"
+                },
+                "uuid": "67e4424d-68fb-46bb-bb45-12779aa09e43"
+               }
+              ],
+              "uuid": "97f5c294-2134-4291-bf22-61d242cebc1d"
+             },
+             "uuid": "7f00ffbd-97ba-41b3-97b7-9c4b9131f369"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "89336067-131d-438a-a28f-43e1c2db7f85"
+            },
+            "uuid": "904090e0-efa1-45b8-93a0-41735af3068f"
+           },
+           "uuid": "0044894f-d0e6-4353-a126-22fd17b27209"
+          },
+          {
+           "title": "10:45 PM",
+           "screenAttr": "PXL",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "PVR",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "PXL",
+             "show_session_id": "14303",
+             "show_time": "22:45",
+             "type": "actual_icon",
+             "uuid": "0c7600ef-482b-4658-8ded-25ab69304bee"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": true,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "4abceed6-e309-4ce8-b072-d84d40e6d35c"
+             },
+             "uuid": "dc7f600f-5b5f-4ce4-8169-8833d76719c1"
+            },
+            "uuid": "eee2f347-4949-44bf-926a-c4522902df98"
+           },
+           "additionalData": {
+            "sessionId": "14303",
+            "availStatus": "1",
+            "cutOffDateTime": "202612162330",
+            "cutOffDateTimeEpoch": "1797444000",
+            "showDateCode": "20261216",
+            "showDateTime": "202612162245",
+            "showTimeCode": "2245",
+            "showTime": "10:45 PM",
+            "attributes": "PXL",
+            "uuid": "b3074c41-8e13-448d-a086-78b06f9aab68"
+           },
+           "filters": [
+            "pf3",
+            "pf4",
+            "ag-7",
+            "tf4"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | PXL",
+                 "uuid": "dd0bffcb-bde9-4ebc-8487-8d8451bbdbb9"
+                },
+                "uuid": "6db6858e-0a7e-4cc6-9809-ba59b9e55427"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "9a3d4062-f81a-4bf3-b0b1-85e8b160cc8b"
+                },
+                "uuid": "691e7da8-dcbc-40b5-9730-cb38412dea86"
+               },
+               {
+                "layoutId": "seat-category-type-almost-full",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "ALMOST FULL",
+                 "seatCost": "₹ 354.00",
+                 "seatType": "LOUNGER ROWS",
+                 "uuid": "0495540d-a4da-4e2b-ad1e-fae45362b1e8"
+                },
+                "uuid": "b4311158-9037-41bc-a63c-325964670368"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 354.00",
+                 "seatType": "RECLINER ROWS",
+                 "uuid": "739b4be6-dec7-4d19-b033-7d79ec2b20d4"
+                },
+                "uuid": "1d6ee68c-0eb2-434e-ba3b-c3f39854bd93"
+               },
+               {
+                "layoutId": "seat-category-type-almost-full",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "ALMOST FULL",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "CLASSIC ROWS",
+                 "uuid": "43b1cdd7-2af1-406d-955e-66cd4e8896f4"
+                },
+                "uuid": "158237df-b379-4b33-9b5f-6c6395e3aab4"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 295.00",
+                 "seatType": "PRIME ROWS",
+                 "uuid": "9e92b49b-31c2-42c6-9736-baaee0fafc1d"
+                },
+                "uuid": "103ff732-885a-4c1c-bcef-cb34a3c43991"
+               }
+              ],
+              "uuid": "bf836271-d90c-4b9f-b0b0-d2b3c288ddbf"
+             },
+             "uuid": "00c46e14-749b-435f-88af-ee79fa611b18"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "e43ea542-e869-4dde-9a4d-602a9af221b1"
+            },
+            "uuid": "a1dbbdfd-34e6-43a5-be20-67e8bf36274f"
+           },
+           "uuid": "3b0c8325-c1c9-434a-9abd-fbc07d53a096"
+          }
+         ],
+         "filters": [
+          "tf4",
+          "pf3",
+          "pf4",
+          "ag-7"
+         ],
+         "additionalData": {
+          "eventCode": "ET00491771",
+          "uuid": "b03fcd57-6e81-4268-8308-0c5f970f5cd8"
+         },
+         "uuid": "07774b68-f1fc-4fb3-903c-d3c54003ddd2"
+        }
+       ],
+       "analytics": {
+        "display_position": "4",
+        "event_name": "showtime_card_viewed",
+        "event_type": "impression",
+        "is_favourite": "false",
+        "venue_code": "ILKS",
+        "uuid": "720c2d59-fb4f-45b9-8f3b-935f1c81973d"
+       },
+       "styleId": "venue-card-style",
+       "id": "ILKS",
+       "uuid": "d4bafc54-09d3-4dc8-8c3a-69f004ed7f5c"
+      },
+      {
+       "type": "venue-card",
+       "additionalData": {
+        "venueCode": "PIIC",
+        "seatLegendIds": [
+         "4",
+         "1",
+         "88",
+         "2"
+        ],
+        "seatSelectorFooterText": "default",
+        "bestSeatsDialogBox": "default",
+        "enableBestSeatCelebration": true,
+        "favouriteActionState": "unfavourite",
+        "venueName": "PVR Superplex Inorbit: LUXE, PXL, 4DX: Cyberabad",
+        "isFnBAvailable": true,
+        "isMTicketAvailable": true,
+        "uuid": "5c70d096-c4ee-4f45-bf00-7b1041474a8c"
+       },
+       "filters": [
+        "pf5",
+        "pf8",
+        "ag-7",
+        "tf4"
+       ],
+       "sortInfo": {
+        "distance": {
+         "value": 4900000,
+         "enabled": true,
+         "uuid": "af6d689a-132d-48c0-8f16-9ede8855ced5"
+        },
+        "popularityRank": {
+         "value": 5,
+         "enabled": true,
+         "uuid": "88e286ac-c0a5-46da-8ee9-035ce27ece23"
+        },
+        "uuid": "d1043614-4d34-47a1-9073-60e71e6c56f6"
+       },
+       "header": {
+        "data": {
+         "styleId": "header-container-style",
+         "components": [
+          {
+           "type": "image",
+           "data": {
+            "url": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/cinema-icon/pvr.png",
+            "styleId": "cinema-icon",
+            "cta": {
+             "type": "redirection",
+             "id": "venueLink",
+             "analytics": {
+              "event_action": "venue_info",
+              "event_name": "showtime_actions",
+              "event_type": "click",
+              "uuid": "69ba66e4-ec8a-42cf-a53a-0dad94c0b6d4"
+             },
+             "additionalData": {
+              "venueCode": "PIIC",
+              "venueName": "PVR Superplex Inorbit: LUXE, PXL, 4DX: Cyberabad",
+              "redirectionUrl": "https://in.bookmyshow.com/cinemas/hyderabad/pvr-superplex-inorbit-luxe-pxl-4dx-cyberabad/buytickets/PIIC/20261216",
+              "uuid": "c748c2b2-eb5d-4fd0-b77f-b0a725ebbbc4"
+             },
+             "uuid": "185947ee-2b7e-439b-8784-cfe08b2a1816"
+            },
+            "elementType": "a",
+            "elementAttributes": {
+             "alt": "PVR Superplex Inorbit: LUXE, PXL, 4DX: Cyberabad",
+             "href": "https://in.bookmyshow.com/cinemas/hyderabad/pvr-superplex-inorbit-luxe-pxl-4dx-cyberabad/buytickets/PIIC/20261216",
+             "uuid": "aa56a594-4dc1-4bfe-b09c-ba7209cc6901"
+            },
+            "uuid": "afcbb5d4-d525-4d9e-91b4-4ecfc8ced1ae"
+           },
+           "uuid": "c9bf76b9-5d50-4910-9176-97b58659d57f"
+          },
+          {
+           "styleId": "header-title-container",
+           "type": "text",
+           "data": {
+            "data": [
+             {
+              "components": [
+               {
+                "text": "PVR Superplex Inorbit: LUXE, PXL, 4DX: Cyberabad",
+                "styleId": "header-subtitle",
+                "type": "text",
+                "uuid": "58062955-de53-4c78-9ecf-125f993a0ca7"
+               },
+               {
+                "styleId": "cinema-info-image-v2",
+                "imageUrl": "https://assets-in.bmscdn.com/moviesmaster/movies-showtimes/v4/common/infoV2.png",
+                "type": "image",
+                "uuid": "6dacd715-7924-4ad5-ba6a-c5cdf22e715f"
+               }
+              ],
+              "cta": {
+               "type": "bottomsheet",
+               "id": "venueInfo",
+               "analytics": {
+                "event_action": "venue_info",
+                "event_name": "showtime_actions",
+                "event_type": "click",
+                "uuid": "ee6fb3cf-e05b-46b6-8be2-5b4ff3b3ddc8"
+               },
+               "additionalData": {
+                "venueCode": "PIIC",
+                "venueName": "PVR Superplex Inorbit: LUXE, PXL, 4DX: Cyberabad",
+                "uuid": "404510a7-e52c-4d52-820c-46f59d742ecd"
+               },
+               "uuid": "6b70d386-2070-42cd-a676-7192f1ddc3d0"
+              },
+              "uuid": "8e377821-d3d1-4682-ad35-a3020df68fd4"
+             }
+            ],
+            "uuid": "48eab6a0-1baf-4f55-b70a-69555dcd97ab"
+           },
+           "uuid": "7566b77d-6b4d-4712-922b-5014a0874cb4"
+          },
+          {
+           "styleId": "favourite-icon",
+           "type": "action",
+           "data": {
+            "id": "actionStates",
+            "cta": {
+             "type": "venueFavourite",
+             "analytics": {
+              "event_name": "favourite_venue_selected",
+              "event_type": "click",
+              "venue_code": "PIIC",
+              "uuid": "a837d680-37e5-4e2d-951b-a4b31a01322d"
+             },
+             "uuid": "06ece674-4e89-47f9-97a9-b2059ed546b1"
+            },
+            "uuid": "d82b01dc-e6b4-423f-8f61-6976ef397b5b"
+           },
+           "uuid": "1f45e120-c7dc-4720-ab18-5b62b4f75d86"
+          }
+         ],
+         "uuid": "296f2a77-e73a-4a37-88a0-e256a8de9827"
+        },
+        "uuid": "5870d0af-e954-40aa-abcf-d81347940977"
+       },
+       "infoList": [
+        {
+         "label": "Non-cancellable",
+         "textColor": "#666666",
+         "uuid": "c47e7979-2be6-4f93-9c3c-99b8a7e0ab8d"
+        }
+       ],
+       "showtimesSections": [
+        {
+         "showtimes": [
+          {
+           "title": "07:40 PM",
+           "screenAttr": "PXL",
+           "subtitleAcronym": "ENG",
+           "subtitleAcronymPosition": "end",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "PVR",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "PXL",
+             "show_session_id": "35727",
+             "show_time": "19:40",
+             "type": "actual_icon",
+             "uuid": "85ceef34-320c-4cca-b985-23f178d403cb"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": true,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "5b381452-4326-4662-8154-9eb059b87416"
+             },
+             "uuid": "8e874071-5d89-4f30-a146-1af9370e57f4"
+            },
+            "uuid": "7baeca6e-9aaf-44d9-aafe-8f49d35897b1"
+           },
+           "additionalData": {
+            "sessionId": "35727",
+            "availStatus": "1",
+            "cutOffDateTime": "202612162025",
+            "cutOffDateTimeEpoch": "1797432900",
+            "showDateCode": "20261216",
+            "showDateTime": "202612161940",
+            "showTimeCode": "1940",
+            "showTime": "07:40 PM",
+            "attributes": "PXL",
+            "uuid": "6232434f-d642-46fa-8196-aead64dccf88"
+           },
+           "filters": [
+            "pf5",
+            "pf8",
+            "ag-7",
+            "tf4"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | PXL",
+                 "subtitleImage": "https://assets-in.bmscdn.com/moviesmaster/coachmark/subtitle.png",
+                 "subtitleLang": " Subtitle language: ",
+                 "subtitleText": "English",
+                 "uuid": "ef5292ed-8af8-45a8-b2f7-2395ba269062"
+                },
+                "uuid": "b682f50c-72e2-4a31-b618-63382740fa05"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "19fd2350-d472-4978-98a4-082bdb85552f"
+                },
+                "uuid": "61803047-a636-4c2e-bdbb-8bdf09bc29f0"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 708.00",
+                 "seatType": "RECLINER ROWS",
+                 "uuid": "4f536893-d0bc-44b9-9c80-261c9bea7399"
+                },
+                "uuid": "0875f5d2-344e-435e-95fc-69659dd00a9e"
+               },
+               {
+                "layoutId": "seat-category-type-almost-full",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "ALMOST FULL",
+                 "seatCost": "₹ 472.00",
+                 "seatType": "PRIME ROWS",
+                 "uuid": "f80cdfee-83cd-4eab-821b-74ae8460bcce"
+                },
+                "uuid": "371b79fd-f5cc-4c46-84f0-760a236f5e26"
+               },
+               {
+                "layoutId": "seat-category-type-filling-fast",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "FILLING FAST",
+                 "seatCost": "₹ 472.00",
+                 "seatType": "LOUNGERS ROWS",
+                 "uuid": "c5e29336-778e-4231-8e39-b19853f6af3f"
+                },
+                "uuid": "f507f0d4-657f-4c18-8e21-dfd38297a9c6"
+               }
+              ],
+              "uuid": "2ba06e0a-6fa1-4a2c-9064-94a8be2aaaad"
+             },
+             "uuid": "62b540ca-549a-444f-b1da-aa7f70fb84fe"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "f68f084d-a9b6-4f31-b396-da9285a86533"
+            },
+            "uuid": "d9b8447c-323b-4e10-a7e6-886cc0f9b149"
+           },
+           "uuid": "7f51aac0-5ba9-463f-9aca-33d2020c62e9"
+          },
+          {
+           "title": "11:00 PM",
+           "screenAttr": "PXL",
+           "subtitleAcronym": "ENG",
+           "subtitleAcronymPosition": "end",
+           "styleId": "orange-pill-with-border",
+           "cta": {
+            "type": "showTimeRedirect",
+            "analytics": {
+             "company_code": "PVR",
+             "event_name": "showtime_selected",
+             "event_type": "click",
+             "format": "PXL",
+             "label": "night_show",
+             "show_session_id": "35728",
+             "show_time": "23:00",
+             "type": "actual_icon",
+             "uuid": "e69c6b71-aabf-4271-bd8d-c15c3f2b8ff5"
+            },
+            "additionalData": {
+             "showCutOffBottomSheet": true,
+             "cta": {
+              "type": "bottomsheet",
+              "id": "cutOffBottomSheet",
+              "uuid": "eaf8d606-ba22-4cb3-ac80-a54c2af1889e"
+             },
+             "uuid": "139c5340-0e50-448d-920b-30b0c8d1db3f"
+            },
+            "uuid": "bcd5b164-7dcf-4b24-bfaa-f2d61c7b2657"
+           },
+           "additionalData": {
+            "sessionId": "35728",
+            "availStatus": "1",
+            "cutOffDateTime": "202612162345",
+            "cutOffDateTimeEpoch": "1797444900",
+            "showDateCode": "20261216",
+            "showDateTime": "202612162300",
+            "showTimeCode": "2300",
+            "showTime": "11:00 PM",
+            "attributes": "PXL",
+            "uuid": "c041b2e9-a697-4a94-bc4e-e7568be30eee"
+           },
+           "filters": [
+            "pf5",
+            "pf8",
+            "ag-7",
+            "tf4"
+           ],
+           "customGestureCTA": {
+            "gestureType": "doubleTap",
+            "type": "bottomsheet",
+            "additionalData": {
+             "bottomSheetData": {
+              "backgroundColor": "#ffffff",
+              "handleColor": "#000000",
+              "widgets": [
+               {
+                "layoutId": "format-container",
+                "type": "utility",
+                "variableData": {
+                 "format": "English • 2D | PXL",
+                 "subtitleImage": "https://assets-in.bmscdn.com/moviesmaster/coachmark/subtitle.png",
+                 "subtitleLang": " Subtitle language: ",
+                 "subtitleText": "English",
+                 "uuid": "5d93336a-35fa-48b9-9143-17457a8b6ce1"
+                },
+                "uuid": "9ef6b480-ecd9-4af6-ac2b-adb79cebb395"
+               },
+               {
+                "layoutId": "category-price-header-container",
+                "type": "text",
+                "variableData": {
+                 "title": "Seat category and price",
+                 "uuid": "740b37a1-63cf-4ee0-9b53-abc22ef040e8"
+                },
+                "uuid": "ac03e1d2-6069-4de4-a9f4-3bb41fa68ec6"
+               },
+               {
+                "layoutId": "seat-category-type-sold-out",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "SOLD OUT",
+                 "seatCost": "₹ 708.00",
+                 "seatType": "RECLINER ROWS",
+                 "uuid": "da9a886a-9a14-4e92-b029-aca3baadcf57"
+                },
+                "uuid": "14f73f79-aa91-4807-9ee3-e9fb16b482cc"
+               },
+               {
+                "layoutId": "seat-category-type-almost-full",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "ALMOST FULL",
+                 "seatCost": "₹ 472.00",
+                 "seatType": "PRIME ROWS",
+                 "uuid": "442452b2-704a-4141-97e9-4b1ce0c64bd9"
+                },
+                "uuid": "dfe70932-5569-4973-9489-83a3ae2db0ee"
+               },
+               {
+                "layoutId": "seat-category-type-available",
+                "type": "text",
+                "variableData": {
+                 "seatAvalibility": "AVAILABLE",
+                 "seatCost": "₹ 472.00",
+                 "seatType": "LOUNGERS ROWS",
+                 "uuid": "d081a286-4f4f-4857-86b0-a1a9e1b8ce04"
+                },
+                "uuid": "6c419ee0-0521-4483-be37-3a285bf4fcf7"
+               }
+              ],
+              "uuid": "0d7e67fd-59fb-4915-ad9f-8a5340cb98b0"
+             },
+             "uuid": "b175d880-96b2-4f85-98b6-f70904bd466d"
+            },
+            "analytics": {
+             "event_action": "showinfo_modal_viewed",
+             "event_name": "showtime_actions",
+             "event_type": "click",
+             "uuid": "4cb81c2d-5da7-4a54-b1bc-1ef705a02df8"
+            },
+            "uuid": "f5ad5003-ec1c-4563-b747-9e1c19dce6e7"
+           },
+           "overlayId": "lateNight",
+           "uuid": "07acb6e2-c795-4f0b-b5d9-a4d8c3adcd2a"
+          }
+         ],
+         "filters": [
+          "pf5",
+          "pf8",
+          "ag-7",
+          "tf4"
+         ],
+         "additionalData": {
+          "eventCode": "ET00491771",
+          "uuid": "0ee215cb-8523-48f0-8bdf-ec1c91545576"
+         },
+         "uuid": "67a64dc3-5c70-46cb-a86e-d5c44a7cb689"
+        }
+       ],
+       "analytics": {
+        "display_position": "5",
+        "event_name": "showtime_card_viewed",
+        "event_type": "impression",
+        "is_favourite": "false",
+        "label": "night_show",
+        "venue_code": "PIIC",
+        "uuid": "a57c0bf3-bf98-41fa-a704-e7c3d20b0fb4"
+       },
+       "styleId": "venue-card-style",
+       "id": "PIIC",
+       "uuid": "2f37142d-6d9a-44d3-b627-2b7ff0bedee8"
+      }
+     ],
+     "uuid": "744c2a0f-92f1-4556-93e2-4b6b83fb0650"
+    }
+   ],
+   "uuid": "6bcecc01-7aee-4713-8512-2cba293d25cd"
+  },
+  {
+   "type": "info",
+   "id": "changeLocation",
+   "filters": [
+    "ALL"
+   ],
+   "data": [
+    {
+     "styleId": "widget-title",
+     "text": "Unable to find what you are looking for?",
+     "uuid": "e53b411c-05f8-40e7-8eed-35728ad44725"
+    }
+   ],
+   "action": {
+    "label": "Change Location",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#DC354B",
+    "borderColor": "#DC354B",
+    "cta": {
+     "type": "changeLocation",
+     "analytics": {
+      "event_action": "change_location",
+      "event_name": "showtime_actions",
+      "event_type": "click",
+      "uuid": "d46d8d98-1604-4cac-b048-60ee48abcd22"
+     },
+     "uuid": "4c2ab725-6482-416d-8b83-784ea89d35bb"
+    },
+    "uuid": "4fb92d73-ae86-4a0f-9850-d1fb7441d29a"
+   },
+   "sortInfo": {
+    "distance": {
+     "value": 0,
+     "enabled": false,
+     "uuid": "5ddebfb9-94e1-4d6e-977d-2f62f2aa4dbb"
+    },
+    "popularityRank": {
+     "value": 5000000,
+     "enabled": true,
+     "uuid": "da3edcb3-a69a-4536-9c2b-f97b04bfb8b4"
+    },
+    "uuid": "9176da13-8e80-4da8-a677-954a3d6c7120"
+   },
+   "uuid": "1265479b-0ad8-4055-8d91-624a150bc54b"
+  }
+ ]
+}
