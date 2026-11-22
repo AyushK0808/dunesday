@@ -86,14 +86,17 @@ def new_shows(shows: Iterable[Show], existing_keys: set[str]) -> list[Show]:
     return [s for s in shows if s.key not in existing_keys]
 
 
-def sync_shows(db: Database, shows: Iterable[Show], complete_movies: set[str], platform: str = "district") -> list[Show]:
-    """Upsert current shows; return the ones never seen before.
+def sync_shows(
+    db: Database, shows: Iterable[Show], complete_movies: set[str], platform: str = "district", ts: dt.datetime | None = None
+) -> list[Show]:
+    """Upsert current shows; return the ones never seen before. `ts` is stored as
+    `first_seen_at` on new shows (defaults to now).
 
     Shows of `platform` for movies in `complete_movies` (fully fetched this
     run) that are no longer listed are marked inactive (show passed, or removed).
     """
     shows = list(shows)
-    ts = now()
+    ts = ts or now()
     keys = [s.key for s in shows]
     existing = {d["_id"] for d in db.shows.find({"_id": {"$in": keys}}, {"_id": 1})} if keys else set()
     new = new_shows(shows, existing)
@@ -122,14 +125,19 @@ def sync_shows(db: Database, shows: Iterable[Show], complete_movies: set[str], p
     return new
 
 
-def listed_elsewhere(db: Database, shows: list[Show]) -> set[str]:
-    """Keys of `shows` that are already stored from another platform (same film,
-    date, start time and cinema), so people aren't emailed twice for one show."""
+def listed_elsewhere(db: Database, shows: list[Show], seen_at: dt.datetime) -> set[str]:
+    """Keys of `shows` that another platform stored before `seen_at` (same film,
+    date, start time and cinema), so people aren't emailed twice for one show.
+
+    Only earlier records count: the District and BookMyShow checks run at the
+    same time, and if each counted the other's fresh copy, neither would email.
+    """
     if not shows:
         return set()
     others = db.shows.find(
         {
             "platform": {"$nin": sorted({s.platform for s in shows})},
+            "first_seen_at": {"$lt": seen_at},
             "movie_key": {"$in": sorted({s.movie_key for s in shows})},
             "date": {"$in": sorted({s.date for s in shows})},
             "time": {"$in": sorted({s.time for s in shows})},

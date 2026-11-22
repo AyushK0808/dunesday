@@ -114,9 +114,10 @@ def run(args: argparse.Namespace) -> int:
     emails_sent = 0
     try:
         shows, complete, errors = fetch_all(settings, source)
-        new = dbm.sync_shows(db, shows, complete, platform=source)
+        seen_at = dbm.now()
+        new = dbm.sync_shows(db, shows, complete, platform=source, ts=seen_at)
         # A show already emailed from the other platform isn't news.
-        dupes = dbm.listed_elsewhere(db, new)
+        dupes = dbm.listed_elsewhere(db, new, seen_at)
         alert = [s for s in new if s.key not in dupes]
         log.info("%d shows found, %d new, %d of them already listed elsewhere", len(shows), len(new), len(dupes))
 

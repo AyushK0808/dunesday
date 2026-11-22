@@ -5,7 +5,7 @@ Tracks English showtimes for **Avengers: Doomsday** and **Dune: Part Three** in 
 ```
 tracker/        Python: fetch District / BookMyShow, diff against MongoDB, send emails
 web/            Next.js 16: dashboard, email-code login, admin settings
-.github/        check-shows (cron, every 20 min) and test (on push)
+.github/        check-shows (cron, every 20 min; District and BookMyShow in parallel) and test (on push)
 tests/          tracker tests against saved District pages
 ```
 
@@ -19,8 +19,8 @@ tests/          tracker tests against saved District pages
 ### BookMyShow
 
 - The showtimes page (`/movies/<city>/<slug>/buytickets/<ET code>/<YYYYMMDD>`) embeds the shows for one format and one date in `window.__INITIAL_STATE__`. Each format (2D, 4DX, EPIQ…) has its own ET code, listed in the page's format picker, so one check is one request per format per bookable date.
-- It runs as a second step in the same GitHub workflow (`python -m tracker --source bookmyshow`). BookMyShow's Cloudflare often blocks GitHub's IPs. That step is allowed to fail, District keeps working, and admins get one "BookMyShow check is failing" email.
-- A show on both sites (same film, date, time and cinema, matched by name in `tracker/cinemas.py`) is stored twice but emailed only once, by whichever site listed it first.
+- It runs as a parallel job in the same GitHub workflow (`python -m tracker --source bookmyshow`), so neither site waits for or is stopped by the other. BookMyShow's Cloudflare often blocks GitHub's IPs. Its job is allowed to fail without turning the run red, and admins get one "BookMyShow check is failing" email.
+- A show on both sites (same film, date, time and cinema, matched by name in `tracker/cinemas.py`) is stored twice but emailed only once, by whichever site's check stored it first (an earlier `first_seen_at`). If both store it in the same instant, it's emailed twice, never zero times.
 - BookMyShow doesn't publish seat counts, so its shows have prices but no fill bar.
 
 ## One-time setup
@@ -87,9 +87,13 @@ npm run dev
 
 ## Things to know
 
-- **GitHub's cron is best effort.** "Every 20 minutes" often means 20 to 30 minutes, and runs can be skipped under load. Use **Check now** when you want a check right away.
+- **GitHub's cron is best effort.** Scheduled runs are often late by an hour or more, or skipped entirely, especially on new or rarely active repos. The schedule (`7,27,47 * * * *`) stays as a backup. For checks that really run every 20 minutes, have an outside scheduler start the workflow:
+  1. Create a fine-grained token with access to only this repo and **Actions: Read and write** (the **Check now** token works).
+  2. At [cron-job.org](https://cron-job.org) (free), add a job every 20 minutes: `POST https://api.github.com/repos/<owner>/dunesday/actions/workflows/check.yml/dispatches`, headers `Authorization: Bearer <token>`, `Accept: application/vnd.github+json`, body `{"ref":"main","inputs":{"trigger":"cron"}}`. Sending `trigger: cron` makes the run respect **Pause**.
+  3. A dispatch that lands while that site's check is still running waits for it instead of overlapping.
 - **GitHub disables scheduled workflows** in public repos after 60 days with no commits. The Health page warns when the last check is over an hour old.
 - **District has no public API.** If it changes its page format, checks fail and admins get an email. The fix is usually in `tracker/sources/district.py`. Save a new fixture and update the tests.
+- **District sits behind Akamai and sometimes blocks GitHub's IPs too** (HTTP 403 in the log, while the same page loads fine from home). The same home-PC fallback below works for District: use `-m tracker` as the argument and a different task name.
 - **If BookMyShow blocks GitHub**, the Health page says so. Set `BMS_IN_ACTIONS=false` and run the BookMyShow check from a PC on a home connection instead, with Windows Task Scheduler every 20 minutes:
   ```powershell
   $a = New-ScheduledTaskAction -Execute "$PWD\.venv\Scripts\python.exe" -Argument "-m tracker --source bookmyshow" -WorkingDirectory "$PWD"
