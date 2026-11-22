@@ -28,7 +28,7 @@ export default async function Overview() {
           <h2 className="section-title" id="recent">
             Recently added
           </h2>
-          <p className="section-note">New showtimes, in the order the tracker found them. Tap a time to book on District.</p>
+          <p className="section-note">New showtimes, in the order the tracker found them. Tap a time to book it. Times marked BMS open BookMyShow; the rest open District.</p>
           {feed.length === 0 ? (
             <div className="empty">
               <h2>Nothing found yet</h2>

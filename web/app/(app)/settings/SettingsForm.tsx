@@ -29,7 +29,7 @@ export function SettingsForm({ city, language, movies }: { city: string; languag
 
       <fieldset>
         <legend className="legend">Films</legend>
-        <p className="hint">Paste the film's District page link. Any city's link works; the city above is used.</p>
+        <p className="hint">Paste the film's District page link. Any city's link works; the city above is used. The BookMyShow link is optional; leave it empty to skip BookMyShow for that film.</p>
         <div className="movie-rows">
           {rows.map((m, i) => (
             <div key={m.key} className={`movie-row theme-${m.theme}`}>
@@ -41,6 +41,10 @@ export function SettingsForm({ city, language, movies }: { city: string; languag
               <div className="field">
                 <label htmlFor={`url-${i}`}>District link</label>
                 <input id={`url-${i}`} name="url" className="input" defaultValue={m.url} placeholder="https://www.district.in/movies/…-MV123456" inputMode="url" />
+              </div>
+              <div className="field">
+                <label htmlFor={`bms-${i}`}>BookMyShow link</label>
+                <input id={`bms-${i}`} name="bms_url" className="input" defaultValue={m.bms_url ?? ""} placeholder="https://in.bookmyshow.com/…/ET00123456" inputMode="url" />
               </div>
               <div className="field">
                 <label htmlFor={`theme-${i}`}>Look</label>

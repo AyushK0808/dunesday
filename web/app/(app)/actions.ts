@@ -80,6 +80,7 @@ export async function savePrefs(_prev: ActionResult, form: FormData): Promise<Ac
 // ------------------------------------------------------------ settings (admin)
 
 const URL_RX = /^https:\/\/www\.district\.in\/movies\/[a-z0-9-]+?-movie-tickets(?:-in-[a-z0-9-]+)?-MV\d+/;
+const BMS_RX = /^https:\/\/in\.bookmyshow\.com\/(?:[a-z-]+\/)?movies\/(?:[a-z-]+\/)?[a-z0-9-]+\/(?:buytickets\/)?ET\d{8}/;
 
 export async function saveSettings(_prev: ActionResult, form: FormData): Promise<ActionResult> {
   await requireAdmin();
@@ -93,17 +94,19 @@ export async function saveSettings(_prev: ActionResult, form: FormData): Promise
   for (let i = 0; i < keys.length; i++) {
     const name = String(form.getAll("name")[i] ?? "").trim();
     const url = String(form.getAll("url")[i] ?? "").trim();
+    const bmsUrl = String(form.getAll("bms_url")[i] ?? "").trim();
     const theme = String(form.getAll("theme")[i] ?? "plain") as Theme;
     if (form.getAll("remove").map(String).includes(keys[i])) continue;
     if (!name && !url) continue;
     if (!name) return { error: "Every movie needs a name." };
     if (!URL_RX.test(url)) return { error: `"${name}" needs a District movie link, like https://www.district.in/movies/dune-part-three-movie-tickets-MV207332` };
+    if (bmsUrl && !BMS_RX.test(bmsUrl)) return { error: `"${name}" has a BookMyShow link that doesn't look right. Use the film's page, like https://in.bookmyshow.com/hyderabad/movies/dune-part-three/ET00491771` };
     const key =
       keys[i] && keys[i] !== "new"
         ? keys[i]
         : name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40) || `movie-${Date.now()}`;
     if (movies.some((m) => m.key === key)) return { error: `Two movies share the name "${name}".` };
-    movies.push({ key, name: name.slice(0, 80), url, enabled: form.getAll("enabled").map(String).includes(keys[i]), theme: ["dune", "doom", "plain"].includes(theme) ? theme : "plain" });
+    movies.push({ key, name: name.slice(0, 80), url, bms_url: bmsUrl, enabled: form.getAll("enabled").map(String).includes(keys[i]), theme: ["dune", "doom", "plain"].includes(theme) ? theme : "plain" });
   }
   const db = await getDb();
   await db.collection<Settings>("settings").updateOne({ _id: "global" }, { $set: { city, language, movies } }, { upsert: true });

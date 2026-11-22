@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { requireUser } from "@/lib/auth";
 import { getSettings } from "@/lib/db";
 import { latestRuns } from "@/lib/queries";
+import { PLATFORM_NAMES, type RunDoc } from "@/lib/types";
 import { ago, stamp } from "@/lib/time";
 
 export const metadata: Metadata = { title: "Health" };
@@ -15,8 +16,12 @@ function duration(a: Date, b?: Date) {
 export default async function Health() {
   await requireUser();
   const [settings, runs] = await Promise.all([getSettings(), latestRuns(144)]);
-  const last = runs[0];
-  const lastOk = runs.find((r) => r.status === "ok");
+  const isBms = (r: RunDoc) => r.source === "bookmyshow";
+  // The schedule is judged by District runs: they're the ones that always run in GitHub Actions.
+  const last = runs.find((r) => !isBms(r));
+  const lastOk = runs.find((r) => !isBms(r) && r.status === "ok");
+  const lastBms = runs.find(isBms);
+  const lastBmsOk = runs.find((r) => isBms(r) && r.status === "ok");
   const day = runs.filter((r) => Date.now() - new Date(r.started_at).getTime() < 24 * 60 * 60 * 1000);
   const failures = day.filter((r) => r.status === "error").length;
   const newToday = day.reduce((a, r) => a + (r.new_shows ?? 0), 0);
@@ -27,7 +32,7 @@ export default async function Health() {
   return (
     <>
       <h1 className="page-title">Tracker health</h1>
-      <p className="lede">Each check loads every bookable date on District and compares the showtimes with what it found before.</p>
+      <p className="lede">Each check loads every bookable date on District, then on BookMyShow, and compares the showtimes with what it found before. A show that's on both sites is only emailed once.</p>
 
       {settings.paused && <div className="callout">Tracking is paused. Scheduled checks are skipped until an admin resumes it.</div>}
       {!settings.paused && stale && (
@@ -37,7 +42,12 @@ export default async function Health() {
       )}
       {last?.status === "error" && (
         <div className="callout" data-kind="error">
-          The last check failed. Admins were emailed when the failures started. The error is in the table below.
+          The last District check failed. Admins were emailed when the failures started. The error is in the table below.
+        </div>
+      )}
+      {lastBms?.status === "error" && (
+        <div className="callout" data-kind="error">
+          The last BookMyShow check failed{/HTTP 403|blocking this IP|blocked/.test(lastBms.error ?? "") ? ": BookMyShow is blocking the server it ran from" : ""}. District checks are unaffected.
         </div>
       )}
 
@@ -49,6 +59,10 @@ export default async function Health() {
         <div className="stat">
           <dt>Last successful check</dt>
           <dd>{lastOk ? ago(lastOk.started_at) : "Never"}</dd>
+        </div>
+        <div className="stat">
+          <dt>Last BookMyShow success</dt>
+          <dd>{lastBmsOk ? ago(lastBmsOk.started_at) : "Never"}</dd>
         </div>
         <div className="stat">
           <dt>Checks in the last day</dt>
@@ -86,7 +100,7 @@ export default async function Health() {
       {runs.length === 0 ? (
         <div className="empty">
           <h2>No checks yet</h2>
-          <p>The first scheduled check runs within about 10 minutes of the GitHub workflow being enabled.</p>
+          <p>The first scheduled check runs within about 20 minutes of the GitHub workflow being enabled.</p>
         </div>
       ) : (
         <div className="table-wrap">
@@ -94,6 +108,7 @@ export default async function Health() {
             <thead>
               <tr>
                 <th scope="col">Started</th>
+                <th scope="col">Site</th>
                 <th scope="col">Result</th>
                 <th scope="col">Trigger</th>
                 <th scope="col" className="num">Found</th>
@@ -106,6 +121,7 @@ export default async function Health() {
               {runs.slice(0, 40).map((r) => (
                 <tr key={String(r._id)}>
                   <td>{stamp(r.started_at)}</td>
+                  <td className="muted">{PLATFORM_NAMES[r.source ?? "district"]}</td>
                   <td>
                     <span className="badge" data-status={r.status}>
                       {{ ok: "OK", error: "Failed", skipped: "Skipped", running: "Running" }[r.status]}
@@ -116,7 +132,9 @@ export default async function Health() {
                   <td className="num" title={Object.entries(r.per_movie ?? {}).map(([k, v]) => `${nameOf[k] ?? k}: ${v}`).join("\n")}>
                     {r.shows_found ?? ""}
                   </td>
-                  <td className="num">{r.new_shows ? <b>{r.new_shows}</b> : r.status === "ok" ? "0" : ""}</td>
+                  <td className="num" title={r.already_listed ? `${r.already_listed} already listed on the other site, not emailed` : undefined}>
+                    {r.new_shows ? <b>{r.new_shows}</b> : r.status === "ok" ? "0" : ""}
+                  </td>
                   <td className="num">{r.emails_sent ?? ""}</td>
                   <td className="muted">{duration(r.started_at, r.finished_at)}</td>
                 </tr>

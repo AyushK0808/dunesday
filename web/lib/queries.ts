@@ -1,6 +1,6 @@
 import "server-only";
 import { getDb } from "./db";
-import type { RunDoc, ShowDoc, UserDoc } from "./types";
+import type { RunDoc, ShowDoc, Source, UserDoc } from "./types";
 
 export type MovieStats = {
   shows: number;
@@ -101,9 +101,10 @@ export async function recentBatches(batchLimit = 4, perGroup = 8): Promise<Batch
   );
 }
 
-export async function latestRuns(limit = 144): Promise<RunDoc[]> {
+export async function latestRuns(limit = 144, source?: Source): Promise<RunDoc[]> {
   const db = await getDb();
-  return db.collection<RunDoc>("runs").find({}).sort({ started_at: -1 }).limit(limit).toArray();
+  const q = source === "district" ? { source: { $ne: "bookmyshow" as const } } : source ? { source } : {};
+  return db.collection<RunDoc>("runs").find(q).sort({ started_at: -1 }).limit(limit).toArray();
 }
 
 export type ShowFilter = { movie?: string; date?: string; formats?: string[]; cinema?: string; seats?: boolean; fresh?: boolean };

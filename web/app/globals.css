@@ -460,7 +460,7 @@ fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: 10px; min-width
 
 .movie-rows { display: grid; gap: 12px; }
 .movie-row { display: grid; gap: 12px; padding: 16px; border-radius: var(--r-card); background: var(--night-raised); box-shadow: inset 0 0 0 1px var(--line); }
-@media (min-width: 860px) { .movie-row { grid-template-columns: 1.1fr 2fr 140px auto; align-items: end; } }
+@media (min-width: 860px) { .movie-row { grid-template-columns: 1.1fr 1.6fr 1.6fr 140px auto; align-items: end; } }
 .movie-row .field > label { font-weight: 500; font-size: 0.8125rem; color: var(--muted); }
 .row-actions { display: flex; gap: 14px; align-items: center; min-height: 46px; }
 .mini-check { display: inline-flex; gap: 6px; align-items: center; font-size: 0.875rem; color: var(--muted); cursor: pointer; }

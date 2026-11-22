@@ -4,6 +4,8 @@ export type MovieSetting = {
   key: string;
   name: string;
   url: string;
+  /** BookMyShow link. Missing: the tracker fills in a default. Empty: not tracked on BookMyShow. */
+  bms_url?: string;
   enabled: boolean;
   theme: Theme;
 };
@@ -15,6 +17,8 @@ export type Settings = {
   paused: boolean;
   failure_streak: number;
   last_ok_at?: Date;
+  bms_failure_streak?: number;
+  bms_last_ok_at?: Date;
   movies: MovieSetting[];
 };
 
@@ -53,15 +57,22 @@ export type RunDoc = {
   started_at: Date;
   finished_at?: Date;
   trigger: "cron" | "manual";
+  /** Missing on runs from before BookMyShow was added; those are District. */
+  source?: Source;
   status: "running" | "ok" | "error" | "skipped";
   shows_found?: number;
   new_shows?: number;
   per_movie?: Record<string, number>;
   new_per_movie?: Record<string, number>;
+  already_listed?: number;
   emails_sent?: number;
   error?: string | null;
   note?: string;
 };
+
+export type Source = "district" | "bookmyshow";
+
+export const PLATFORM_NAMES: Record<string, string> = { district: "District", bookmyshow: "BookMyShow" };
 
 export type Role = "admin" | "viewer";
 

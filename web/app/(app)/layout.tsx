@@ -10,7 +10,7 @@ export const dynamic = "force-dynamic";
 
 export default async function AppLayout({ children }: LayoutProps<"/">) {
   const user = await requireUser();
-  const [settings, [last]] = await Promise.all([getSettings(), latestRuns(1)]);
+  const [settings, [last]] = await Promise.all([getSettings(), latestRuns(1, "district")]);
   const stale = !last || Date.now() - new Date(last.started_at).getTime() > 60 * 60 * 1000;
   const state = settings.paused ? "paused" : last?.status === "error" ? "error" : stale ? "stale" : "ok";
   const text =

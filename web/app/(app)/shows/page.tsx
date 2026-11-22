@@ -60,7 +60,7 @@ export default async function Shows({ searchParams }: PageProps<"/shows">) {
     <>
       <h1 className="page-title">Showtimes</h1>
       <p className="lede">
-        Every English show District lists in {settings.city.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())}. The bar under each time shows how full it is. A dot means it was added in the last 24 hours.
+        Every English show District and BookMyShow list in {settings.city.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())}. The bar under each time shows how full it is (District only; BookMyShow doesn't publish seat counts). BMS marks a BookMyShow show. A dot means it was added in the last 24 hours.
       </p>
 
       <div className="filters">
@@ -134,7 +134,7 @@ export default async function Shows({ searchParams }: PageProps<"/shows">) {
       {!date ? (
         <div className="empty">
           <h2>No showtimes yet</h2>
-          <p>Bookings haven't opened on District for these films, or the first check hasn't run. You'll get an email when shows appear.</p>
+          <p>Bookings haven't opened for these films, or the first check hasn't run. You'll get an email when shows appear.</p>
         </div>
       ) : byCinema.size === 0 ? (
         <div className="empty">
