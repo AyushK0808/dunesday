@@ -23,7 +23,7 @@ export default async function Login() {
       <main className="login-panel">
         <div className="login-card">
           <h1 className="login-mark">DUNESDAY</h1>
-          <p className="login-copy">Showtimes for Dune: Part Three and Avengers: Doomsday in Hyderabad, watched every 10 minutes.</p>
+          <p className="login-copy">Showtimes for Dune: Part Three and Avengers: Doomsday in Hyderabad, watched every 20 minutes.</p>
           <LoginForm />
           <p className="login-foot">Invite only. Ask the admin to add your email.</p>
         </div>

@@ -10,7 +10,7 @@ export function Controls({ paused }: { paused: boolean }) {
     <form action={action} className="panel">
       <h2 className="section-title">Controls</h2>
       <p className="section-note">
-        {paused ? "Tracking is paused. Scheduled checks are skipped until you resume." : "Scheduled checks run about every 10 minutes."}
+        {paused ? "Tracking is paused. Scheduled checks are skipped until you resume." : "Scheduled checks run about every 20 minutes."}
       </p>
       <div className="controls">
         <button className="btn" name="intent" value="check" disabled={busy}>

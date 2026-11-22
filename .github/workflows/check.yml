@@ -2,7 +2,7 @@ name: check-shows
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/20 * * * *"
   workflow_dispatch: {}
 
 concurrency:
@@ -15,7 +15,7 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,6 +25,20 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Check District for new shows
         run: python -m tracker
+        env:
+          MONGODB_URI: ${{ secrets.MONGODB_URI }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          RUN_TRIGGER: ${{ github.event_name == 'schedule' && 'cron' || 'manual' }}
+      # BookMyShow's Cloudflare often blocks GitHub's IPs. This step is allowed
+      # to fail so District alerts keep working; admins get one email when it
+      # starts failing. Set the repo variable BMS_IN_ACTIONS=false to turn it
+      # off (for example if you run it from your own PC instead).
+      - name: Check BookMyShow for new shows
+        if: ${{ vars.BMS_IN_ACTIONS != 'false' }}
+        continue-on-error: true
+        run: python -m tracker --source bookmyshow
         env:
           MONGODB_URI: ${{ secrets.MONGODB_URI }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
