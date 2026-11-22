@@ -1,6 +1,6 @@
 # Dunesday
 
-Tracks English showtimes for **Avengers: Doomsday** and **Dune: Part Three** in Hyderabad on [District](https://www.district.in) and [BookMyShow](https://in.bookmyshow.com). Every 20 minutes a GitHub Action loads every bookable date and emails people when new shows appear. A dashboard with invite-only login runs at `dunesday.ayushk08.com`.
+Tracks English showtimes for **Avengers: Doomsday** and **Dune: Part Three** in Hyderabad on [District](https://www.district.in) and [BookMyShow](https://in.bookmyshow.com). Every 20 minutes a GitHub Action, running on a self-hosted runner on a home PC, loads every bookable date and emails people when new shows appear. A dashboard with invite-only login runs at `dunesday.ayushk08.com`.
 
 ```
 tracker/        Python: fetch District / BookMyShow, diff against MongoDB, send emails
@@ -49,8 +49,14 @@ Skip the `--no-email` run if you *want* one big email listing every show that's 
 2. Go to **Settings > Secrets and variables > Actions**:
    - Secrets: `MONGODB_URI`, `GMAIL_USER`, `GMAIL_APP_PASSWORD`
    - Variables: `SITE_URL` = `https://dunesday.ayushk08.com`. Optional: `BMS_IN_ACTIONS` = `false` turns off the BookMyShow step.
-3. Under **Actions**, open *check-shows* and click **Run workflow** once to confirm it works.
-4. For the site's **Check now** button, create a fine-grained token under **Settings > Developer settings > Fine-grained tokens**. Give it access to only this repo, with **Actions: Read and write**. This is `GITHUB_TOKEN` in Vercel.
+3. Install the self-hosted runners on a Windows PC on a home connection (District and BookMyShow both block GitHub's own machines). Needs `uv` and `gh auth login`, no admin rights:
+   ```powershell
+   .\scripts\setup-runner.ps1          # two runners, so District and BookMyShow run in parallel
+   .\scripts\setup-runner.ps1 -Remove  # undo
+   ```
+   Each runner is a scheduled task that starts when you log on. Checks only run while the PC is on and awake; runs that come due while it's off wait in the queue, and only the newest waiting run per site is kept.
+4. Under **Actions**, open *check-shows* and click **Run workflow** once to confirm it works.
+5. For the site's **Check now** button, create a fine-grained token under **Settings > Developer settings > Fine-grained tokens**. Give it access to only this repo, with **Actions: Read and write**. This is `GITHUB_TOKEN` in Vercel.
 
 ### 5. Vercel
 1. Import the repo and set **Root Directory** to `web`.
@@ -93,8 +99,8 @@ npm run dev
   3. A dispatch that lands while that site's check is still running waits for it instead of overlapping.
 - **GitHub disables scheduled workflows** in public repos after 60 days with no commits. The Health page warns when the last check is over an hour old.
 - **District has no public API.** If it changes its page format, checks fail and admins get an email. The fix is usually in `tracker/sources/district.py`. Save a new fixture and update the tests.
-- **District sits behind Akamai and sometimes blocks GitHub's IPs too** (HTTP 403 in the log, while the same page loads fine from home). The same home-PC fallback below works for District: use `-m tracker` as the argument and a different task name.
-- **If BookMyShow blocks GitHub**, the Health page says so. Set `BMS_IN_ACTIONS=false` and run the BookMyShow check from a PC on a home connection instead, with Windows Task Scheduler every 20 minutes:
+- **Why a self-hosted runner:** District (Akamai) and BookMyShow (Cloudflare) answer GitHub's IPs with HTTP 403, while the same pages load fine from home. Running the job in Docker on GitHub wouldn't help, since the container shares the GitHub machine's IP.
+- **Without the runner workflow** (PC not available), a plain Task Scheduler job also works, every 20 minutes:
   ```powershell
   $a = New-ScheduledTaskAction -Execute "$PWD\.venv\Scripts\python.exe" -Argument "-m tracker --source bookmyshow" -WorkingDirectory "$PWD"
   $t = New-ScheduledTaskTrigger -Once -At (Get-Date) -RepetitionInterval (New-TimeSpan -Minutes 20)

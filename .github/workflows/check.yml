@@ -25,25 +25,30 @@ jobs:
       matrix:
         source: ${{ fromJSON(vars.BMS_IN_ACTIONS == 'false' && '["district"]' || '["district","bookmyshow"]') }}
     name: ${{ matrix.source }}
-    runs-on: ubuntu-latest
+    # Runs on the self-hosted runners on the home PC (scripts/setup-runner.ps1):
+    # District and BookMyShow both block GitHub's IPs. Two runners keep the two
+    # sites in parallel. Runs queue while the PC is off.
+    runs-on: [self-hosted, dunesday]
     timeout-minutes: 15
     # One run per source at a time; a run that overlaps waits instead of racing.
     concurrency:
       group: tracker-${{ matrix.source }}
       cancel-in-progress: false
-    # BookMyShow's Cloudflare often blocks GitHub's IPs. Its failures don't turn
-    # the run red; admins still get one email when it starts failing.
+    # BookMyShow failures don't turn the run red; admins still get one email
+    # when it starts failing.
     continue-on-error: ${{ matrix.source == 'bookmyshow' }}
+    defaults:
+      run:
+        shell: powershell
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: astral-sh/setup-uv@v6
         with:
-          python-version: "3.12"
-          cache: pip
-      - run: pip install -r requirements.txt
+          enable-cache: false
       - name: Check ${{ matrix.source }} for new shows
-        run: python -m tracker --source ${{ matrix.source }}
+        run: uv run --no-project --python 3.12 --with-requirements requirements.txt python -m tracker --source ${{ matrix.source }}
         env:
+          PYTHONUTF8: "1"
           MONGODB_URI: ${{ secrets.MONGODB_URI }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
