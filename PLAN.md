@@ -9,8 +9,8 @@ Email alerts whenever a new English showtime for **Avengers: Doomsday** or **Dun
 | City / language | Hyderabad, English only |
 | Trigger | Every new showtime (new theatre, date, time or format) |
 | Formats | All, each tagged (IMAX / 4DX / Dolby / ICE / EPIQ / P[XL] / 2D / 3D) |
-| Platforms | District in the cloud. BookMyShow is out because its bot protection blocks cloud IPs (optional local add-on later) |
-| Tracker | Python 3.12 on GitHub Actions, public repo, cron every 10 min |
+| Platforms | District and BookMyShow, both in GitHub Actions. BookMyShow's Cloudflare may block cloud IPs; its step can fail without affecting District, and can run from a home PC instead |
+| Tracker | Python 3.12 on GitHub Actions, public repo, cron every 20 min |
 | Database | MongoDB Atlas free tier (M0) holds all data and settings, nothing in the repo |
 | Website | Next.js (App Router) on Vercel Hobby, at `dunesday.ayushk08.com` |
 | Login | Email one-time code for an allowlist of emails |
@@ -20,7 +20,7 @@ Email alerts whenever a new English showtime for **Avengers: Doomsday** or **Dun
 ## Architecture
 
 ```
-GitHub Actions (cron */10, or "Check now" from the site)
+GitHub Actions (cron */20, or "Check now" from the site)
   └─ python -m tracker
        1. read settings from MongoDB → exit early if paused
        2. fetch District Hyderabad shows for each enabled movie
@@ -140,4 +140,4 @@ dunesday/
 - **District's internal API is undocumented** and can change. Fixture tests plus the failure email make breakage obvious quickly.
 - **Gmail's limit is about 500 emails a day**, which is plenty for a few friends.
 - **Scraping may break District's terms of service.** Keep it low volume and for personal use.
-- **BookMyShow isn't covered in the cloud.** A few Hyderabad theatres may be BookMyShow-only.
+- **BookMyShow may block GitHub's IPs.** If it does, run `python -m tracker --source bookmyshow` from a home PC. Many Hyderabad cinemas (Prasads, AAA, Aparna, Asian, AMB) are BookMyShow-only.
